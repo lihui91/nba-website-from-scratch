@@ -1,88 +1,88 @@
-# ÀºÇòÊı¾İ¿âµÄÊı¾İ»ñÈ¡¼°¿ÉÊÓ»¯Í¼±í²¿·Ö
+# ç¯®çƒæ•°æ®åº“çš„æ•°æ®è·å–åŠå¯è§†åŒ–å›¾è¡¨éƒ¨åˆ†
 
-## 1. ÎÄ¼şÄ¿Â¼Ò»ÀÀ
-- csv : ÅÀÏÂÀ´µÄÔ´ÎÄ¼ş
-- getdata.ipynb : ÅÀÈ¡¹ı³Ì
-- getData.py : opencv»­Í¼¹ı³Ì
+## 1. æ–‡ä»¶ç›®å½•ä¸€è§ˆ
+- csv : çˆ¬ä¸‹æ¥çš„æºæ–‡ä»¶
+- getdata.ipynb : çˆ¬å–è¿‡ç¨‹
+- getData.py : opencvç”»å›¾è¿‡ç¨‹
 
 
 
-## 2. Êı¾İ¿âÊı¾İ»ñÈ¡
-Ïê¼ûgetdata.ipynb£¬Ö÷Òª¹ı³ÌÈçÏÂ£º
+## 2. æ•°æ®åº“æ•°æ®è·å–
+è¯¦è§getdata.ipynbï¼Œä¸»è¦è¿‡ç¨‹å¦‚ä¸‹ï¼š
 
 ```python
-# ÕÒµ½´ıÅÀÈ¡µÄurl
+# æ‰¾åˆ°å¾…çˆ¬å–çš„url
 url = "https://china.nba.com/static/data/league/teamstats_All_All_2020_2.json"
-# ÏìÓ¦ÅÀÈ¡
+# å“åº”çˆ¬å–
 response = requests.get(url, timeout=5) #headers=headers,
-# ÎÄ¼ş½âÎö
+# æ–‡ä»¶è§£æ
 data = response.json()
 teams = data['payload']['teams']
-# Ìí¼ÓÒ»Ğ©ĞĞ»òÁĞ
-# ´ò°ü³Épd
+# æ·»åŠ ä¸€äº›è¡Œæˆ–åˆ—
+# æ‰“åŒ…æˆpd
 all_team = pd.DataFrame(teams)
-#±£´æÎªcvsµ½ÏàÓ¦Ä¿Â¼
+#ä¿å­˜ä¸ºcvsåˆ°ç›¸åº”ç›®å½•
 ```
 
 
 
-## 3. Í¼±í¿ÉÊÓ»¯
+## 3. å›¾è¡¨å¯è§†åŒ–
 
-TODO : £¨pychart£¿£©
+TODO : ï¼ˆpychartï¼Ÿï¼‰
 
-1. **ÇòÔ±³¡¾ù»ù±¾Êı¾İ¿ÉÊÓ»¯£º**
+1. **çƒå‘˜åœºå‡åŸºæœ¬æ•°æ®å¯è§†åŒ–ï¼š**
 
-   ÒÔjoel-embiidÎªÀı£º
+   ä»¥joel-embiidä¸ºä¾‹ï¼š
 
-   **»­³öÒ»¸ö¸öÈËÊı¾İºÍÁªÃËÊı¾İµÄ¶Ô±ÈÍ¼¡£**£¨¿ÉÒÔÖù×´Ò²¿ÉÒÔĞÇ×´Í¼
+   **ç”»å‡ºä¸€ä¸ªä¸ªäººæ•°æ®å’Œè”ç›Ÿæ•°æ®çš„å¯¹æ¯”å›¾ã€‚**ï¼ˆå¯ä»¥æŸ±çŠ¶ä¹Ÿå¯ä»¥æ˜ŸçŠ¶å›¾
 
-![image-20210426094624203](C:\Users\THINK\AppData\Roaming\Typora\typora-user-images\image-20210426094624203.png)
+![image-20210426094624203](https://www.hualigs.cn/image/6086257ce6d8f.jpg)
 
-£¨https://china.nba.com/players/vs/#!/joel_embiid/?£©
+ï¼ˆhttps://china.nba.com/players/vs/#!/joel_embiid/?ï¼‰
 
-![image-20210426095733826](C:\Users\THINK\AppData\Roaming\Typora\typora-user-images\image-20210426095733826.png)
+![image-20210426095733826](https://www.hualigs.cn/image/6086257cd78e7.jpg)
 
 (https://blog.csdn.net/ninewolfyan/article/details/83786205?)
 
-**Êı¾İ¼ìË÷Á÷³Ì£º**
+**æ•°æ®æ£€ç´¢æµç¨‹ï¼š**
 
-ÏÈµ½`players_basic`ÖĞÕÒµ½`ÇòÔ±id`
+å…ˆåˆ°`players_basic`ä¸­æ‰¾åˆ°`çƒå‘˜id`
 
-![image-20210426095019132](C:\Users\THINK\AppData\Roaming\Typora\typora-user-images\image-20210426095019132.png)
+![image-20210426095019132](https://www.hualigs.cn/image/6086257cd6ba9.jpg)
 
-È»ºóÕÒµ½`player`/`all_player_statAverage.csv`
+ç„¶åæ‰¾åˆ°`player`/`all_player_statAverage.csv`
 
-![image-20210426095050052](C:\Users\THINK\AppData\Roaming\Typora\typora-user-images\image-20210426095050052.png)
+![image-20210426095050052](https://www.hualigs.cn/image/6086262b85b31.jpg)
 
-Äã¿ÉÄÜĞèÒªÓÃµ½µÄÊı¾İÍ·£º
+ä½ å¯èƒ½éœ€è¦ç”¨åˆ°çš„æ•°æ®å¤´ï¼š
 
-> assistsPg(³¡¾ùÖú¹¥)
+> assistsPg(åœºå‡åŠ©æ”»)
 >
-> blocksPg(³¡¾ù¸ÇÃ±)
+> blocksPg(åœºå‡ç›–å¸½)
 >
-> pointsPg(³¡¾ùµÃ·Ö),
+> pointsPg(åœºå‡å¾—åˆ†),
 >
-> rebsPg,(³¡¾ùÀº°å),
+> rebsPg,(åœºå‡ç¯®æ¿),
 >
-> stealsPg(³¡¾ùÇÀ¶Ï),
+> stealsPg(åœºå‡æŠ¢æ–­),
 >
-> fgpct(³¡¾ùÍ¶ÀºÃüÖĞÂÊ%)£¬
+> fgpct(åœºå‡æŠ•ç¯®å‘½ä¸­ç‡%)ï¼Œ
 >
-> ftpct(³¡¾ù·£ÇòÃüÖĞÂÊ%)£¬
+> ftpct(åœºå‡ç½šçƒå‘½ä¸­ç‡%)ï¼Œ
 >
-> tppct(³¡¾ùÈı·ÖÃüÖĞÂÊ%)
+> tppct(åœºå‡ä¸‰åˆ†å‘½ä¸­ç‡%)
 
-2. **ÇòÔ±µ¥³¡Í¶ÀºÈÈµãÍ¼¿ÉÊÓ»¯**
+2. **çƒå‘˜å•åœºæŠ•ç¯®çƒ­ç‚¹å›¾å¯è§†åŒ–**
 
-²Î¿¼`getData.py`, Ñ¡Ò»¸ö¾ÍĞĞÁË°É~
+å‚è€ƒ`getData.py`, é€‰ä¸€ä¸ªå°±è¡Œäº†å§~
 
-![image-20210426100100400](C:\Users\THINK\AppData\Roaming\Typora\typora-user-images\image-20210426100100400.png)
+![image-20210426100100400](https://www.hualigs.cn/image/6086257cef1a8.jpg)
 
-![image-20210426100113068](C:\Users\THINK\AppData\Roaming\Typora\typora-user-images\image-20210426100113068.png)
+![image-20210426100113068](https://www.hualigs.cn/image/6086257ce7ad3.jpg)
 
-![image-20210426100037952](C:\Users\THINK\AppData\Roaming\Typora\typora-user-images\image-20210426100037952.png)
+![image-20210426100037952](https://www.hualigs.cn/image/6086257ce9a96.jpg)
 
-![image-20210426100049418](C:\Users\THINK\AppData\Roaming\Typora\typora-user-images\image-20210426100049418.png)
+![image-20210426100049418](https://www.hualigs.cn/image/6086257cef18e.jpg)
 
 https://www.nba.com/stats/events/?flag=3&CFID=33&CFPARAMS=2020-21&PlayerID=2544&ContextMeasure=FGA&Season=2020-21&section=player&sct=hex
 
