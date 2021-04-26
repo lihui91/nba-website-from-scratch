@@ -1,0 +1,31 @@
+,abbr,city,cityEn,code,conference,displayAbbr,displayConference,division,id,isAllStarTeam,isLeagueTeam,leagueId,name,nameEn
+0,MIL,密尔沃基,Milwaukee,bucks,Eastern,雄鹿,东部,中央分区,1610612749,False,True,00,雄鹿,Bucks
+1,UTA,犹他,Utah,jazz,Western,爵士,西部,西北分区,1610612762,False,True,00,爵士,Jazz
+2,NOP,新奥尔良,New Orleans,pelicans,Western,鹈鹕,西部,西南分区,1610612740,False,True,00,鹈鹕,Pelicans
+3,MEM,孟菲斯,Memphis,grizzlies,Western,灰熊,西部,西南分区,1610612763,False,True,00,灰熊,Grizzlies
+4,NYK,纽约,New York,knicks,Eastern,尼克斯,东部,大西洋分区,1610612752,False,True,00,尼克斯,Knicks
+5,OKC,俄克拉荷马城,Oklahoma City,thunder,Western,雷霆,西部,西北分区,1610612760,False,True,00,雷霆,Thunder
+6,ATL,亚特兰大,Atlanta,hawks,Eastern,老鹰,东部,东南分区,1610612737,False,True,00,老鹰,Hawks
+7,PHI,费城,Philadelphia,sixers,Eastern,76人,东部,大西洋分区,1610612755,False,True,00,76人,76ers
+8,ORL,奥兰多,Orlando,magic,Eastern,魔术,东部,东南分区,1610612753,False,True,00,魔术,Magic
+9,WAS,华盛顿,Washington,wizards,Eastern,奇才,东部,东南分区,1610612764,False,True,00,奇才,Wizards
+10,DEN,丹佛,Denver,nuggets,Western,掘金,西部,西北分区,1610612743,False,True,00,掘金,Nuggets
+11,CHI,芝加哥,Chicago,bulls,Eastern,公牛,东部,中央分区,1610612741,False,True,00,公牛,Bulls
+12,BKN,布鲁克林,Brooklyn,nets,Eastern,篮网,东部,大西洋分区,1610612751,False,True,00,篮网,Nets
+13,LAC,洛杉矶,LA,clippers,Western,快船,西部,太平洋分区,1610612746,False,True,00,快船,Clippers
+14,BOS,波士顿,Boston,celtics,Eastern,凯尔特人,东部,大西洋分区,1610612738,False,True,00,凯尔特人,Celtics
+15,LAL,洛杉矶,Los Angeles,lakers,Western,湖人,西部,太平洋分区,1610612747,False,True,00,湖人,Lakers
+16,SAS,圣安东尼奥,San Antonio,spurs,Western,马刺,西部,西南分区,1610612759,False,True,00,马刺,Spurs
+17,POR,波特兰,Portland,blazers,Western,开拓者,西部,西北分区,1610612757,False,True,00,开拓者,Trail Blazers
+18,DAL,达拉斯,Dallas,mavericks,Western,独行侠,西部,西南分区,1610612742,False,True,00,独行侠,Mavericks
+19,CHA,夏洛特,Charlotte,hornets,Eastern,黄蜂,东部,东南分区,1610612766,False,True,00,黄蜂,Hornets
+20,PHX,菲尼克斯,Phoenix,suns,Western,太阳,西部,太平洋分区,1610612756,False,True,00,太阳,Suns
+21,MIN,明尼苏达,Minnesota,timberwolves,Western,森林狼,西部,西北分区,1610612750,False,True,00,森林狼,Timberwolves
+22,DET,底特律,Detroit,pistons,Eastern,活塞,东部,中央分区,1610612765,False,True,00,活塞,Pistons
+23,GSW,金州,Golden State,warriors,Western,勇士,西部,太平洋分区,1610612744,False,True,00,勇士,Warriors
+24,CLE,克利夫兰,Cleveland,cavaliers,Eastern,骑士,东部,中央分区,1610612739,False,True,00,骑士,Cavaliers
+25,HOU,休斯顿,Houston,rockets,Western,火箭,西部,西南分区,1610612745,False,True,00,火箭,Rockets
+26,IND,印第安纳,Indiana,pacers,Eastern,步行者,东部,中央分区,1610612754,False,True,00,步行者,Pacers
+27,MIA,迈阿密,Miami,heat,Eastern,热火,东部,东南分区,1610612748,False,True,00,热火,Heat
+28,SAC,萨克拉门托,Sacramento,kings,Western,国王,西部,太平洋分区,1610612758,False,True,00,国王,Kings
+29,TOR,多伦多,Toronto,raptors,Eastern,猛龙,东部,大西洋分区,1610612761,False,True,00,猛龙,Raptors

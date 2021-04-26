@@ -1,0 +1,113 @@
+.nav-link {
+  align-items: center;
+}
+
+.col.final {
+  width: 20px;
+}
+
+.team-name {
+  font-weight: 700;
+}
+
+.col.team-info {
+  text-align: center;
+  color: #000;
+}
+
+.team-winning-field {
+  font-weight: 600;
+}
+
+.col-2.align-self-center.score {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.col.final {
+  text-align: center;
+  padding-top: 73px;
+}
+
+.col.row-btn {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.btn.btn-block {
+  color: #2d97f9;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.col.row-btn.left {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.col.row-btn.mid {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+}
+
+.col.row-btn.right {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.row.per-game {
+  background-color: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 0;
+  margin: 10px 20px 10px 20px;
+}
+
+.col.game-brief {
+  background-color: #fff;
+}
+
+.team-name {
+  /*text-align: center;*/
+}
+
+.schdule {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.cur-date {
+  font-weight: 700;
+  padding: 20px 20px 20px 50px;
+}
+
+#calendar {
+  margin: 10px 20px 10px 20px;
+}
+
+.col.calendar {
+  margin: 10px 30px 10px 15px;
+}
+
+.col.calendar.col-cur-date {
+  margin: 10px 0px 10px 15px;
+}
+
+.col.calendar.data-selector {
+  margin: 10px 29px 10px 0px;
+}
+
+#date-selector {
+  padding: 10px 10px 14px 10px;
+  margin: 0px 0px 9px 10px;
+}
+
+.btn.date-selector-games {
+  font-weight: 500;
+}
+

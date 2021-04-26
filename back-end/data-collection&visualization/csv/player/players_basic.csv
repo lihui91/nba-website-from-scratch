@@ -1,0 +1,497 @@
+,code,countryEn,displayNameEn,dob,height,leagueId,playerId,position,weight
+0,pj_tucker,United States,P.J. Tucker,484113600000,1.96,00,200782,前锋,111.1 公斤
+1,brook_lopez,United States,Brook Lopez,575874000000,2.13,00,201572,中锋,127.9 公斤
+2,jrue_holiday,United States,Jrue Holiday,645163200000,1.90,00,201950,后卫,93.0 公斤
+3,jeff_teague,United States,Jeff Teague,581918400000,1.90,00,201952,后卫,88.5 公斤
+4,khris_middleton,United States,Khris Middleton,681969600000,2.01,00,203114,前锋,100.7 公斤
+5,giannis_antetokounmpo,Greece,Giannis Antetokounmpo,786690000000,2.11,00,203507,前锋,109.8 公斤
+6,thanasis_antetokounmpo,Greece,Thanasis Antetokounmpo,711432000000,1.98,00,203648,前锋,99.3 公斤
+7,bobby_portis,United States,Bobby Portis,792392400000,2.08,00,1626171,前锋,113.4 公斤
+8,pat_connaughton,United States,Pat Connaughton,726296400000,1.96,00,1626192,后卫,94.8 公斤
+9,axel_toupane,France,Axel Toupane,711864000000,2.01,00,1626253,后卫-前锋,95.3 公斤
+10,bryn_forbes,United States,Bryn Forbes,743400000000,1.88,00,1627854,后卫,93.0 公斤
+11,justin_jackson,United States,Justin Jackson,796366800000,2.03,00,1628382,前锋,99.8 公斤
+12,donte_divincenzo,United States,Donte DiVincenzo,854686800000,1.93,00,1628978,后卫,92.1 公斤
+13,rodions_kurucs,Latvia,Rodions Kurucs,886654800000,2.06,00,1629066,前锋,103.4 公斤
+14,mamadi_diakite,Guinea,Mamadi Diakite,853822800000,2.06,00,1629603,前锋,103.4 公斤
+15,jordan_nwora,United States,Jordan Nwora,905313600000,2.03,00,1629670,前锋,102.1 公斤
+16,sam_merrill,United States,Sam Merrill,832132800000,1.93,00,1630241,后卫,93.0 公斤
+17,ersan_ilyasova,Turkey,Ersan Ilyasova,548049600000,2.06,00,101141,前锋,106.6 公斤
+18,mike_conley,United States,Mike Conley,560923200000,1.85,00,201144,后卫,79.4 公斤
+19,derrick_favors,United States,Derrick Favors,679550400000,2.06,00,202324,前锋,120.2 公斤
+20,bojan_bogdanovic,Croatia,Bojan Bogdanovic,608875200000,2.01,00,202711,前锋,102.5 公斤
+21,rudy_gobert,France,Rudy Gobert,709531200000,2.16,00,203497,中锋,117.0 公斤
+22,jordan_clarkson,United States,Jordan Clarkson,707889600000,1.93,00,203903,后卫,88.0 公斤
+23,joe_ingles,Australia,Joe Ingles,560145600000,2.03,00,204060,前锋-后卫,99.8 公斤
+24,royce_o'neale,United States,Royce O'Neale,739252800000,1.93,00,1626220,前锋,102.5 公斤
+25,georges_niang,United States,Georges Niang,740289600000,2.01,00,1627777,前锋,104.3 公斤
+26,donovan_mitchell,United States,Donovan Mitchell,842068800000,1.85,00,1628378,后卫,97.5 公斤
+27,udoka_azubuike,Nigeria,Udoka Azubuike,937540800000,2.08,00,1628962,中锋-前锋,127.0 公斤
+28,miye_oni,United States,Miye Oni,870667200000,1.96,00,1629671,后卫-前锋,93.4 公斤
+29,jarrell_brantley,United States,Jarrell Brantley,834120000000,1.96,00,1629714,前锋,113.4 公斤
+30,matt_thomas,United States,Matt Thomas,775972800000,1.93,00,1629744,后卫,86.2 公斤
+31,juwan_morgan,United States,Juwan Morgan,861249600000,2.01,00,1629752,前锋,105.2 公斤
+32,elijah_hughes,United States,Elijah Hughes,889506000000,1.96,00,1630190,后卫,97.5 公斤
+33,trent_forrest,United States,Trent Forrest,897624000000,1.93,00,1630235,后卫,95.3 公斤
+34,james_johnson,United States,James Johnson,540795600000,2.01,00,201949,前锋,108.9 公斤
+35,eric_bledsoe,United States,Eric Bledsoe,629182800000,1.85,00,202339,后卫,97.1 公斤
+36,james_nunnally,United States,James Nunnally,647928000000,2.01,00,203263,前锋,93.0 公斤
+37,steven_adams,New Zealand,Steven Adams,743140800000,2.11,00,203500,中锋,120.2 公斤
+38,willy_hernangomez,Spain,Willy Hernangomez,770011200000,2.11,00,1626195,中锋-前锋,113.4 公斤
+39,brandon_ingram,United States,Brandon Ingram,873172800000,2.03,00,1627742,前锋,86.2 公斤
+40,lonzo_ball,United States,Lonzo Ball,877928400000,1.98,00,1628366,后卫,86.2 公斤
+41,josh_hart,United States,Josh Hart,794466000000,1.96,00,1628404,后卫,97.5 公斤
+42,wes_iwundu,United States,Wes Iwundu,787899600000,1.98,00,1628411,前锋,88.5 公斤
+43,wenyen_gabriel,South Sudan,Wenyen Gabriel,859352400000,2.06,00,1629117,前锋,93.0 公斤
+44,zion_williamson,United States,Zion Williamson,962856000000,2.01,00,1629627,前锋,128.8 公斤
+45,jaxson_hayes,United States,Jaxson Hayes,959054400000,2.11,00,1629637,中锋-前锋,99.8 公斤
+46,nickeil_alexander-walker,Canada,Nickeil Alexander-Walker,904708800000,1.98,00,1629638,后卫,93.0 公斤
+47,kira_lewis_jr,United States,Kira Lewis Jr.,986529600000,1.85,00,1630184,后卫,77.1 公斤
+48,naji_marshall,United States,Naji Marshall,885618000000,2.01,00,1630230,前锋,99.8 公斤
+49,jonas_valanciunas,Lithuania,Jonas Valanciunas,705124800000,2.11,00,202685,中锋,120.2 公斤
+50,kyle_anderson,United States,Kyle Anderson,748497600000,2.06,00,203937,前锋-后卫,104.3 公斤
+51,tyus_jones,United States,Tyus Jones,831700800000,1.83,00,1626145,后卫,88.9 公斤
+52,justise_winslow,United States,Justise Winslow,827816400000,1.98,00,1626159,前锋-后卫,100.7 公斤
+53,dillon_brooks,Canada,Dillon Brooks,822286800000,2.01,00,1628415,后卫-前锋,102.1 公斤
+54,grayson_allen,United States,Grayson Allen,813124800000,1.93,00,1628960,后卫,89.8 公斤
+55,jaren_jackson_jr,United States,Jaren Jackson Jr.,937368000000,2.11,00,1628991,前锋-中锋,109.8 公斤
+56,deanthony_melton,United States,De'Anthony Melton,896328000000,1.88,00,1629001,后卫,90.7 公斤
+57,jontay_porter,United States,Jontay Porter,942642000000,2.11,00,1629007,中锋-前锋,108.9 公斤
+58,ja_morant,United States,Ja Morant,934257600000,1.90,00,1629630,后卫,78.9 公斤
+59,brandon_clarke,Canada,Brandon Clarke,843105600000,2.03,00,1629634,前锋,97.5 公斤
+60,killian_tillie,France,Killian Tillie,889074000000,2.06,00,1629681,前锋-中锋,99.8 公斤
+61,john_konchar,United States,John Konchar,827470800000,1.96,00,1629723,后卫,95.3 公斤
+62,xavier_tillman,United States,Xavier Tillman,916117200000,2.03,00,1630214,前锋,111.1 公斤
+63,desmond_bane,United States,Desmond Bane,898747200000,1.96,00,1630217,后卫,97.5 公斤
+64,sean_mcdermott,United States,Sean McDermott,846997200000,1.98,00,1630253,前锋,88.5 公斤
+65,derrick_rose,United States,Derrick Rose,591940800000,1.88,00,201565,后卫,90.7 公斤
+66,taj_gibson,United States,Taj Gibson,488433600000,2.06,00,201959,前锋,105.2 公斤
+67,alec_burks,United States,Alec Burks,679982400000,1.98,00,202692,后卫,97.1 公斤
+68,nerlens_noel,United States,Nerlens Noel,765950400000,2.11,00,203457,中锋-前锋,99.8 公斤
+69,reggie_bullock,United States,Reggie Bullock,669099600000,1.98,00,203493,后卫-前锋,93.0 公斤
+70,norvel_pelle,United States,Norvel Pelle,728715600000,2.08,00,203658,中锋,104.8 公斤
+71,elfrid_payton,United States,Elfrid Payton,761893200000,1.90,00,203901,后卫,88.5 公斤
+72,julius_randle,United States,Julius Randle,786085200000,2.03,00,203944,前锋-中锋,113.4 公斤
+73,frank_ntilikina,France,Frank Ntilikina,901598400000,1.93,00,1628373,后卫,90.7 公斤
+74,kevin_knox,United States,Kevin Knox II,934344000000,2.01,00,1628995,前锋,97.5 公斤
+75,mitchell_robinson,United States,Mitchell Robinson,891406800000,2.13,00,1629011,中锋-前锋,108.9 公斤
+76,theo_pinson,United States,Theo Pinson,815547600000,1.96,00,1629033,后卫-前锋,96.2 公斤
+77,jared_harper,United States,Jared Harper,874209600000,1.78,00,1629607,后卫,79.4 公斤
+78,myles_powell,United States,Myles Powell,868248000000,1.88,00,1629619,后卫,88.5 公斤
+79,rj_barrett,Canada,RJ Barrett,960955200000,1.98,00,1629628,前锋-后卫,97.1 公斤
+80,obi_toppin,United States,Obi Toppin,888987600000,2.06,00,1630167,前锋,99.8 公斤
+81,immanuel_quickley,United States,Immanuel Quickley,929592000000,1.90,00,1630193,后卫,86.2 公斤
+82,al_horford,Dominican Republic,Al Horford,518155200000,2.06,00,201143,中锋-前锋,108.9 公斤
+83,mike_muscala,United States,Mike Muscala,678340800000,2.08,00,203488,前锋-中锋,108.9 公斤
+84,tony_bradley,United States,Tony Bradley,884235600000,2.08,00,1628396,中锋-前锋,112.5 公斤
+85,shai_gilgeous-alexander,Canada,Shai Gilgeous-Alexander,900216000000,1.98,00,1628983,后卫-前锋,81.6 公斤
+86,sviatoslav_mykhailiuk,Ukraine,Svi Mykhailiuk,865915200000,2.01,00,1629004,后卫-前锋,93.0 公斤
+87,kenrich_williams,United States,Kenrich Williams,786344400000,1.98,00,1629026,后卫-前锋,95.3 公斤
+88,darius_bazley,United States,Darius Bazley,960782400000,2.03,00,1629647,前锋-后卫,94.3 公斤
+89,moses_brown,United States,Moses Brown,939787200000,2.18,00,1629650,中锋,111.1 公斤
+90,luguentz_dort,Canada,Luguentz Dort,924494400000,1.90,00,1629652,后卫,97.5 公斤
+91,jalen_hoard,France,Jaylen Hoard,922770000000,2.03,00,1629658,前锋,98.0 公斤
+92,ty_jerome,United States,Ty Jerome,868334400000,1.96,00,1629660,后卫-前锋,88.5 公斤
+93,roby_isaiah,United States,Isaiah Roby,886482000000,2.03,00,1629676,前锋,104.3 公斤
+94,theo_maledon,France,Theo Maledon,992318400000,1.93,00,1630177,后卫,79.4 公斤
+95,aleksej_pokusevski,Serbia,Aleksej Pokusevski,1009342800000,2.13,00,1630197,中锋,86.2 公斤
+96,josh_hall,United States,Josh Hall,970977600000,2.06,00,1630221,前锋,86.2 公斤
+97,tmp_gabriel_deck,Argentina,Gabriel Deck,792219600000,1.98,00,1630466,前锋,104.8 公斤
+98,lou_williams,United States,Lou Williams,530773200000,1.85,00,101150,后卫,79.4 公斤
+99,danilo_gallinari,Italy,Danilo Gallinari,587016000000,2.08,00,201568,前锋,105.7 公斤
+100,tony_snell,United States,Tony Snell,689749200000,1.98,00,203503,后卫,96.6 公斤
+101,solomon_hill,United States,Solomon Hill,669272400000,1.98,00,203524,前锋,102.5 公斤
+102,clint_capela,Switzerland,Clint Capela,769233600000,2.08,00,203991,中锋,108.9 公斤
+103,bogdan_bogdanovic,Serbia,Bogdan Bogdanovic,714110400000,1.98,00,203992,后卫,99.8 公斤
+104,kris_dunn,United States,Kris Dunn,763966800000,1.90,00,1627739,后卫,93.0 公斤
+105,john_collins,United States,John Collins,874987200000,2.06,00,1628381,前锋-中锋,106.6 公斤
+106,bruno_fernando,Angola,Bruno Fernando,903153600000,2.06,00,1628981,前锋-中锋,108.9 公斤
+107,kevin_huerter,United States,Kevin Huerter,904190400000,2.01,00,1628989,后卫-前锋,86.2 公斤
+108,trae_young,United States,Trae Young,906177600000,1.85,00,1629027,后卫,81.6 公斤
+109,brandon_goodwin,United States,Brandon Goodwin,812606400000,1.83,00,1629164,后卫,81.6 公斤
+110,cameron_reddish,United States,Cam Reddish,936158400000,2.03,00,1629629,前锋-后卫,98.9 公斤
+111,deandre_hunter,United States,De'Andre Hunter,881038800000,2.03,00,1629631,前锋-后卫,102.1 公斤
+112,onyeka_okongwi,United States,Onyeka Okongwu,976510800000,2.03,00,1630168,前锋-中锋,106.6 公斤
+113,skylar_mays,United States,Skylar Mays,873432000000,1.93,00,1630219,后卫,93.0 公斤
+114,nathan_knight,United States,Nathan Knight,874728000000,2.08,00,1630233,前锋-中锋,114.8 公斤
+115,dwight_howard,United States,Dwight Howard,502866000000,2.08,00,2730,中锋-前锋,120.2 公斤
+116,anthony_tolliver,United States,Anthony Tolliver,486446400000,2.03,00,201229,前锋,108.9 公斤
+117,george_hill,United States,George Hill,515563200000,1.93,00,201588,后卫,85.3 公斤
+118,danny_green,United States,Danny Green,551332800000,1.98,00,201980,后卫,97.5 公斤
+119,tobias_harris,United States,Tobias Harris,711172800000,2.03,00,202699,前锋,102.5 公斤
+120,mike_scott,United States,Mike Scott,585028800000,2.01,00,203118,前锋,107.5 公斤
+121,seth_curry,United States,Seth Curry,651384000000,1.88,00,203552,后卫,83.9 公斤
+122,joel_embiid,Cameroon,Joel Embiid,763794000000,2.13,00,203954,中锋-前锋,127.0 公斤
+123,ben_simmons,Australia,Ben Simmons,837835200000,2.11,00,1627732,后卫-前锋,108.9 公斤
+124,furkan_korkmaz,Turkey,Furkan Korkmaz,869716800000,2.01,00,1627788,后卫-前锋,91.6 公斤
+125,shake_milton,United States,Shake Milton,843710400000,1.96,00,1629003,后卫-前锋,93.0 公斤
+126,matisse_thybulle,United States,Matisse Thybulle,857451600000,1.96,00,1629680,后卫-前锋,91.2 公斤
+127,rayjon_tucker,United States,Rayjon Tucker,875073600000,1.90,00,1629730,后卫,94.8 公斤
+128,tyrese_maxey,United States,Tyrese Maxey,973314000000,1.88,00,1630178,后卫,90.7 公斤
+129,paul_reed,United States,Paul Reed,929332800000,2.06,00,1630194,前锋,95.3 公斤
+130,isaiah_joe,United States,Isaiah Joe,930888000000,1.93,00,1630198,后卫,74.8 公斤
+131,mason_jones,United States,Mason Jones,900993600000,1.93,00,1630222,后卫,90.7 公斤
+132,terrence_ross,United States,Terrence Ross,665730000000,1.98,00,203082,后卫-前锋,93.4 公斤
+133,michael_carter-williams,United States,Michael Carter-Williams,687067200000,1.96,00,203487,后卫,86.2 公斤
+134,otto_porter jr.,United States,Otto Porter Jr.,739080000000,2.03,00,203490,前锋,89.8 公斤
+135,james_ennis iii,United States,James Ennis III,646804800000,1.98,00,203516,前锋,97.5 公斤
+136,gary_harris,United States,Gary Harris,779515200000,1.93,00,203914,后卫,95.3 公斤
+137,chasson_randle,United States,Chasson Randle,728888400000,1.88,00,1626184,后卫,83.9 公斤
+138,markelle_fultz,United States,Markelle Fultz,896414400000,1.90,00,1628365,后卫,94.8 公斤
+139,jonathan_isaac,United States,Jonathan Isaac,875851200000,2.11,00,1628371,前锋,104.3 公斤
+140,dwayne_bacon,United States,Dwayne Bacon,809755200000,1.98,00,1628407,后卫-前锋,100.2 公斤
+141,mohamed_bamba,United States,Mo Bamba,894945600000,2.13,00,1628964,中锋,104.8 公斤
+142,wendell_carter_jr,United States,Wendell Carter Jr.,924235200000,2.08,00,1628976,中锋-前锋,122.5 公斤
+143,robert_franks,United States,Robert Franks,850885200000,2.01,00,1629606,前锋,102.1 公斤
+144,chuma_okeke,United States,Chuma Okeke,903412800000,1.98,00,1629643,前锋,103.9 公斤
+145,donta_hall,United States,Donta Hall,870926400000,2.08,00,1629743,中锋,104.3 公斤
+146,devin_cannady,United States,Devin Cannady,832651200000,1.88,00,1629962,后卫,83.0 公斤
+147,cole_anthony,United States,Cole Anthony,958363200000,1.88,00,1630175,后卫,83.9 公斤
+148,rj_hampton,United States,R.J. Hampton,981522000000,1.93,00,1630181,后卫,79.4 公斤
+149,russell_westbrook,United States,Russell Westbrook,595314000000,1.90,00,201566,后卫,90.7 公斤
+150,robin_lopez,United States,Robin Lopez,575874000000,2.13,00,201577,中锋,127.5 公斤
+151,ish_smith,United States,Ish Smith,584078400000,1.83,00,202397,后卫,79.4 公斤
+152,davis_bertans,Latvia,Davis Bertans,721544400000,2.08,00,202722,前锋,102.1 公斤
+153,bradley_beal,United States,Bradley Beal,741240000000,1.90,00,203078,后卫,93.9 公斤
+154,alex_len,Ukraine,Alex Len,740203200000,2.13,00,203458,中锋,113.4 公斤
+155,raul_neto,Brazil,Raul Neto,706248000000,1.85,00,203526,后卫,81.6 公斤
+156,thomas_bryant,United States,Thomas Bryant,870321600000,2.08,00,1628418,中锋-前锋,112.5 公斤
+157,chandler_hutchison,United States,Chandler Hutchison,830491200000,1.98,00,1628990,前锋-后卫,95.3 公斤
+158,rui_hachimura,Japan,Rui Hachimura,886914000000,2.03,00,1629060,前锋,104.3 公斤
+159,isaac_bonga,Germany,Isaac Bonga,942037200000,2.03,00,1629067,后卫,81.6 公斤
+160,daniel_gafford,United States,Daniel Gafford,907214400000,2.08,00,1629655,前锋-中锋,106.1 公斤
+161,garrison_mathews,United States,Garrison Mathews,846129600000,1.96,00,1629726,后卫,97.5 公斤
+162,deni_avdija,Israel,Deni Avdija,978498000000,2.06,00,1630166,前锋,95.3 公斤
+163,cassius_winston,United States,Cassius Winston,888642000000,1.85,00,1630216,后卫,83.9 公斤
+164,anthony_gill,United States,Anthony Gill,719294400000,2.01,00,1630264,前锋,104.3 公斤
+165,paul_millsap,United States,Paul Millsap,476859600000,2.01,00,200794,前锋,116.6 公斤
+166,javale_mcgee,United States,JaVale McGee,569566800000,2.13,00,201580,中锋-前锋,122.5 公斤
+167,austin_rivers,United States,Austin Rivers,712641600000,1.93,00,203085,后卫,90.7 公斤
+168,will_barton,United States,Will Barton,663138000000,1.98,00,203115,后卫,82.1 公斤
+169,jamychal_green,United States,JaMychal Green,645940800000,2.03,00,203210,前锋-中锋,103.0 公斤
+170,aaron_gordon,United States,Aaron Gordon,811224000000,2.03,00,203932,前锋,106.6 公斤
+171,nikola_jokic,Serbia,Nikola Jokic,793170000000,2.11,00,203999,中锋,128.8 公斤
+172,jamal_murray,Canada,Jamal Murray,856674000000,1.90,00,1627750,后卫,97.5 公斤
+173,shaquille_harrison,United States,Shaquille Harrison,749880000000,2.01,00,1627885,后卫,86.2 公斤
+174,pj_dozier,United States,PJ Dozier,846216000000,1.98,00,1628408,后卫-前锋,93.0 公斤
+175,monte_morris,United States,Monte Morris,804225600000,1.88,00,1628420,后卫,83.0 公斤
+176,vlatko_cancar,Slovenia,Vlatko Cancar,860644800000,2.03,00,1628427,前锋,107.0 公斤
+177,michael_porter_jr,United States,Michael Porter Jr.,899092800000,2.08,00,1629008,前锋,98.9 公斤
+178,bol_bol,Sudan,Bol Bol,942728400000,2.18,00,1629626,中锋-前锋,99.8 公斤
+179,zeke_nnaji,United States,Zeke Nnaji,979016400000,2.06,00,1630192,前锋-中锋,108.9 公斤
+180,markus_howard,United States,Markus Howard,920437200000,1.78,00,1630210,后卫,79.4 公斤
+181,facundo_campazzo,Argentina,Facundo Campazzo,669704400000,1.78,00,1630267,后卫,88.5 公斤
+182,thaddeus_young,United States,Thaddeus Young,582868800000,2.03,00,201152,前锋,106.6 公斤
+183,garrett_temple,United States,Garrett Temple,515908800000,1.96,00,202066,后卫-前锋,88.5 公斤
+184,al-farouq_aminu,United States,Al-Farouq Aminu,653889600000,2.03,00,202329,前锋,99.8 公斤
+185,nikola_vucevic,Montenegro,Nikola Vucevic,656740800000,2.11,00,202696,中锋,117.9 公斤
+186,tomas_satoransky,Czech Republic,Tomas Satoransky,688798800000,2.01,00,203107,后卫,95.3 公斤
+187,zach_lavine,United States,Zach LaVine,794811600000,1.96,00,203897,后卫-前锋,90.7 公斤
+188,cristiano_felicio,Brazil,Cristiano Felicio,710481600000,2.11,00,1626245,前锋-中锋,122.5 公斤
+189,denzel_valentine,United States,Denzel Valentine,753426000000,1.93,00,1627756,后卫,99.8 公斤
+190,ryan_arcidiacono,United States,Ryan Arcidiacono,764658000000,1.90,00,1627853,后卫,88.5 公斤
+191,lauri_markkanen,Finland,Lauri Markkanen,864273600000,2.13,00,1628374,前锋-中锋,108.9 公斤
+192,daniel_theis,Germany,Daniel Theis,702363600000,2.03,00,1628464,前锋-中锋,111.1 公斤
+193,troy_brown_jr,United States,Troy Brown Jr.,933134400000,1.98,00,1628972,后卫-前锋,97.5 公斤
+194,coby_white,United States,Coby White,950677200000,1.96,00,1629632,后卫,88.5 公斤
+195,devon_dotson,United States,Devon Dotson,933566400000,1.88,00,1629653,后卫,83.9 公斤
+196,adam_mokoka,France,Adam Mokoka,900734400000,1.93,00,1629690,后卫,86.2 公斤
+197,javonte_green,United States,Javonte Green,743400000000,1.93,00,1629750,后卫-前锋,93.0 公斤
+198,patrick_williams,United States,Patrick Williams,998798400000,2.01,00,1630172,前锋,97.5 公斤
+199,kevin_durant,United States,Kevin Durant,591508800000,2.08,00,201142,前锋,108.9 公斤
+200,jeff_green,United States,Jeff Green,525585600000,2.03,00,201145,前锋,106.6 公斤
+201,deandre_jordan,United States,DeAndre Jordan,585460800000,2.11,00,201599,中锋,120.2 公斤
+202,blake_griffin,United States,Blake Griffin,606027600000,2.06,00,201933,前锋,113.4 公斤
+203,james_harden,United States,James Harden,620107200000,1.96,00,201935,后卫,99.8 公斤
+204,kyrie_irving,Australia,Kyrie Irving,701326800000,1.88,00,202681,后卫,88.5 公斤
+205,spencer_dinwiddie,United States,Spencer Dinwiddie,734068800000,1.96,00,203915,后卫,97.5 公斤
+206,joe_harris,United States,Joe Harris,684129600000,1.98,00,203925,后卫-前锋,99.8 公斤
+207,tyler_johnson,United States,Tyler Johnson,705211200000,1.90,00,204020,后卫,84.4 公斤
+208,timothe_luwawu-cabarrot,France,Timothe Luwawu-Cabarrot,799992000000,2.01,00,1627789,后卫-前锋,99.8 公斤
+209,mike_james,United States,Mike James,650952000000,1.85,00,1628455,后卫,79.4 公斤
+210,bruce_brown,United States,Bruce Brown,840081600000,1.93,00,1628971,后卫-前锋,91.6 公斤
+211,alize_johnson,United States,Alize Johnson,830145600000,2.01,00,1628993,前锋,96.2 公斤
+212,landry_shamet,United States,Landry Shamet,858229200000,1.93,00,1629013,后卫,86.2 公斤
+213,chris_chiozza,United States,Chris Chiozza,816930000000,1.80,00,1629185,后卫,79.4 公斤
+214,reggie_perry,United States,Reggie Perry,953614800000,2.03,00,1629617,前锋-中锋,113.4 公斤
+215,nicolas_claxton,United States,Nicolas Claxton,924321600000,2.11,00,1629651,前锋-中锋,97.5 公斤
+216,rajon_rondo,United States,Rajon Rondo,509432400000,1.85,00,200765,后卫,81.6 公斤
+217,serge_ibaka,Republic of the Congo,Serge Ibaka,622094400000,2.08,00,201586,前锋,106.6 公斤
+218,nicolas_batum,France,Nicolas Batum,598078800000,2.03,00,201587,后卫-前锋,104.3 公斤
+219,patrick_beverley,United States,Patrick Beverley,584683200000,1.85,00,201976,后卫,81.6 公斤
+220,demarcus_cousins,United States,DeMarcus Cousins,650520000000,2.08,00,202326,中锋,122.5 公斤
+221,paul_george,United States,Paul George,641620800000,2.03,00,202331,前锋,99.8 公斤
+222,patrick_patterson,United States,Patrick Patterson,605854800000,2.03,00,202335,前锋,106.6 公斤
+223,marcus_morris,United States,Marcus Morris Sr.,620712000000,2.03,00,202694,前锋,98.9 公斤
+224,kawhi_leonard,United States,Kawhi Leonard,678168000000,2.01,00,202695,前锋,102.1 公斤
+225,reggie_jackson,United States,Reggie Jackson,640238400000,1.88,00,202704,后卫,94.3 公斤
+226,yogi_ferrell,United States,Yogi Ferrell,736920000000,1.83,00,1627812,后卫,80.7 公斤
+227,ivica_zubac,Croatia,Ivica Zubac,858661200000,2.13,00,1627826,中锋,108.9 公斤
+228,luke_kennard,United States,Luke Kennard,835588800000,1.96,00,1628379,后卫,93.4 公斤
+229,amir_coffey,United States,Amir Coffey,866520000000,2.01,00,1629599,后卫-前锋,95.3 公斤
+230,terance_mann,United States,Terance Mann,845611200000,1.96,00,1629611,后卫-前锋,97.5 公斤
+231,daniel_oturu,United States,Daniel Oturu,937800000000,2.03,00,1630187,中锋,108.9 公斤
+232,jay_scrubb,United States,Jay Scrubb,967780800000,1.96,00,1630206,后卫,99.8 公斤
+233,tristan_thompson,Canada,Tristan Thompson,668840400000,2.06,00,202684,中锋-前锋,115.2 公斤
+234,kemba_walker,United States,Kemba Walker,642139200000,1.83,00,202689,后卫,83.5 公斤
+235,evan_fournier,France,Evan Fournier,720334800000,2.01,00,203095,后卫-前锋,93.0 公斤
+236,marcus_smart,United States,Marcus Smart,762930000000,1.90,00,203935,后卫,99.8 公斤
+237,jabari_parker,United States,Jabari Parker,795243600000,2.03,00,203953,前锋,111.1 公斤
+238,jaylen_brown,United States,Jaylen Brown,846129600000,1.98,00,1627759,后卫-前锋,101.2 公斤
+239,jayson_tatum,United States,Jayson Tatum,888901200000,2.03,00,1628369,前锋-后卫,95.3 公斤
+240,semi_ojeleye,United States,Semi Ojeleye,786603600000,1.98,00,1628400,前锋,108.9 公斤
+241,luke_kornet,United States,Luke Kornet,805780800000,2.18,00,1628436,前锋-中锋,113.4 公斤
+242,carsen_edwards,United States,Carsen Edwards,889678800000,1.80,00,1629035,后卫,90.7 公斤
+243,robert_williams,United States,Robert Williams III,877060800000,2.03,00,1629057,中锋-前锋,107.5 公斤
+244,tacko_fall,Senegal,Tacko Fall,818571600000,2.26,00,1629605,中锋,141.1 公斤
+245,romeo_langford,United States,Romeo Langford,940824000000,1.93,00,1629641,后卫-前锋,98.0 公斤
+246,tremont_waters,United States,Tremont Waters,884408400000,1.78,00,1629682,后卫,79.4 公斤
+247,grant_williams,United States,Grant Williams,912402000000,1.98,00,1629684,前锋,107.0 公斤
+248,aaron_nesmith,United States,Aaron Nesmith,940046400000,1.96,00,1630174,后卫-前锋,97.5 公斤
+249,payton_pritchard,United States,Payton Pritchard,885963600000,1.85,00,1630202,后卫,88.5 公斤
+250,lebron_james,United States,LeBron James,473230800000,2.06,00,2544,前锋,113.4 公斤
+251,jared_dudley,United States,Jared Dudley,489816000000,1.98,00,201162,前锋,107.5 公斤
+252,marc_gasol,Spain,Marc Gasol,475822800000,2.11,00,201188,中锋,115.7 公斤
+253,wesley_matthews,United States,Wesley Matthews,529646400000,1.93,00,202083,后卫,99.8 公斤
+254,markieff_morris,United States,Markieff Morris,620712000000,2.06,00,202693,前锋,111.1 公斤
+255,anthony_davis,United States,Anthony Davis,731826000000,2.08,00,203076,前锋-中锋,114.8 公斤
+256,andre_drummond,United States,Andre Drummond,744955200000,2.08,00,203083,中锋,126.6 公斤
+257,ben_mclemore,United States,Ben McLemore,729406800000,1.90,00,203463,后卫,88.5 公斤
+258,dennis_schroder,Germany,Dennis Schroder,748065600000,1.90,00,203471,后卫,78.0 公斤
+259,kentavious_caldwell-pope,United States,Kentavious Caldwell-Pope,730011600000,1.96,00,203484,后卫,92.5 公斤
+260,montrezl_harrell,United States,Montrezl Harrell,759560400000,2.01,00,1626149,前锋-中锋,108.9 公斤
+261,alex_caruso,United States,Alex Caruso,762411600000,1.93,00,1627936,后卫,84.4 公斤
+262,alfonzo_mckinnie,United States,Alfonzo McKinnie,716702400000,2.01,00,1628035,前锋,97.5 公斤
+263,kyle_kuzma,United States,Kyle Kuzma,806558400000,2.08,00,1628398,前锋,100.2 公斤
+264,kostas_antetokounmpo,Greece,Kostas Antetokounmpo,880002000000,2.08,00,1628961,前锋,90.7 公斤
+265,talen_horton-tucker,United States,Talen Horton-Tucker,975128400000,1.93,00,1629659,后卫,106.1 公斤
+266,davontae_cacok,United States,Devontae Cacok,844747200000,2.01,00,1629719,前锋,108.9 公斤
+267,rudy_gay,United States,Rudy Gay,524635200000,2.03,00,200752,前锋-后卫,113.4 公斤
+268,demar_derozan,United States,DeMar DeRozan,618465600000,1.98,00,201942,后卫-前锋,99.8 公斤
+269,patty_mills,Australia,Patty Mills,587275200000,1.85,00,201988,后卫,81.6 公斤
+270,gorgui_dieng,Senegal,Gorgui Dieng,632638800000,2.08,00,203476,中锋,114.3 公斤
+271,trey_lyles,Canada,Trey Lyles,815547600000,2.06,00,1626168,前锋,106.1 公斤
+272,dejounte_murray,United States,Dejounte Murray,843105600000,1.93,00,1627749,后卫,81.6 公斤
+273,jakob_poeltl,Austria,Jakob Poeltl,813729600000,2.16,00,1627751,中锋,111.1 公斤
+274,derrick_white,United States,Derrick White,773121600000,1.93,00,1628401,后卫,86.2 公斤
+275,keita_bates-diop,United States,Keita Bates-Diop,822373200000,2.03,00,1628966,前锋,103.9 公斤
+276,lonnie_walker,United States,Lonnie Walker IV,913611600000,1.93,00,1629022,后卫-前锋,92.5 公斤
+277,drew_eubanks,United States,Drew Eubanks,854773200000,2.06,00,1629234,前锋-中锋,111.1 公斤
+278,keldon_johnson,United States,Keldon Johnson,939614400000,1.96,00,1629640,前锋-后卫,99.8 公斤
+279,luka_samanic,Croatia,Luka Samanic,947394000000,2.08,00,1629677,前锋,103.0 公斤
+280,quinndary_weatherspoon,United States,Quinndary Weatherspoon,842328000000,1.90,00,1629683,后卫,93.0 公斤
+281,devin_vassell,United States,Devin Vassell,967003200000,1.96,00,1630170,后卫-前锋,90.7 公斤
+282,tre_jones,United States,Tre Jones,947307600000,1.85,00,1630200,后卫,83.9 公斤
+283,carmelo_anthony,United States,Carmelo Anthony,454651200000,2.01,00,2546,前锋,108.0 公斤
+284,enes_kanter,Turkey,Enes Kanter,706334400000,2.08,00,202683,中锋,113.4 公斤
+285,damian_lillard,United States,Damian Lillard,648014400000,1.88,00,203081,后卫,88.5 公斤
+286,cj_mccollum,United States,CJ McCollum,685252800000,1.90,00,203468,后卫,86.2 公斤
+287,robert_covington,United States,Robert Covington,661150800000,2.01,00,203496,前锋,94.8 公斤
+288,jusuf_nurkic,Bosnia and Herzegovina,Jusuf Nurkic,777614400000,2.11,00,203994,中锋,131.5 公斤
+289,rondae_hollis-jefferson,United States,Rondae Hollis Jefferson,789109200000,1.98,00,1626178,前锋,98.4 公斤
+290,norman_powell,United States,Norman Powell,738302400000,1.90,00,1626181,后卫,97.5 公斤
+291,derrick_jones jr.,United States,Derrick Jones Jr.,855982800000,1.96,00,1627884,前锋,95.3 公斤
+292,zach_collins,United States,Zach Collins,879915600000,2.11,00,1628380,前锋-中锋,113.4 公斤
+293,harry_giles,United States,Harry Giles III,893217600000,2.11,00,1628385,前锋-中锋,108.9 公斤
+294,tj_leaf,United States,T.J. Leaf,862372800000,2.08,00,1628388,前锋,100.7 公斤
+295,anfernee_simons,United States,Anfernee Simons,928814400000,1.90,00,1629014,后卫,82.1 公斤
+296,cj_elleby,United States,CJ Elleby,961128000000,1.98,00,1629604,前锋-后卫,90.7 公斤
+297,nassir_little,United States,Nassir Little,950245200000,1.96,00,1629642,前锋-后卫,99.8 公斤
+298,keljin_blevins,United States,Keljin Blevins,817189200000,1.93,00,1629833,后卫,90.7 公斤
+299,jj_redick,United States,JJ Redick,456897600000,1.90,00,200755,后卫,90.7 公斤
+300,tim_hardaway jr.,United States,Tim Hardaway Jr.,700722000000,1.96,00,203501,后卫-前锋,93.0 公斤
+301,trey_burke,United States,Trey Burke,721544400000,1.83,00,203504,后卫,83.9 公斤
+302,dwight_powell,Canada,Dwight Powell,679982400000,2.08,00,203939,前锋-中锋,108.9 公斤
+303,kristaps_porzingis,Latvia,Kristaps Porzingis,807336000000,2.21,00,204001,前锋-中锋,108.9 公斤
+304,willie_cauley-stein,United States,Willie Cauley Stein,745646400000,2.13,00,1626161,中锋,108.9 公斤
+305,josh_richardson,United States,Josh Richardson,748065600000,1.96,00,1626196,后卫,90.7 公斤
+306,boban_marjanovic,Serbia,Boban Marjanovic,587620800000,2.24,00,1626246,中锋,131.5 公斤
+307,dorian_finney-smith,United States,Dorian Finney-Smith,736488000000,2.01,00,1627827,前锋,99.8 公斤
+308,maxi_kleber,Germany,Maxi Kleber,696661200000,2.08,00,1628467,前锋,108.9 公斤
+309,jalen_brunson,United States,Jalen Brunson,841464000000,1.85,00,1628973,后卫,86.2 公斤
+310,luka_don,Slovenia,Luka Doncic,920178000000,2.01,00,1629029,前锋-后卫,104.3 公斤
+311,nicolo_melli,Italy,Nicolo Melli,664866000000,2.06,00,1629740,前锋,107.0 公斤
+312,tyrell_terry,United States,Tyrell Terry,970113600000,1.88,00,1630179,后卫,72.6 公斤
+313,josh_green,Australia,Josh Green,974350800000,1.96,00,1630182,后卫,90.7 公斤
+314,tyler_bey,United States,Tyler Bey,887086800000,2.01,00,1630189,前锋,97.5 公斤
+315,nate_hinton,United States,Nate Hinton,928814400000,1.96,00,1630207,后卫-前锋,95.3 公斤
+316,gordon_hayward,United States,Gordon Hayward,638168400000,2.01,00,202330,前锋,102.1 公斤
+317,bismack_biyombo,DRC,Bismack Biyombo,714974400000,2.03,00,202687,中锋,115.7 公斤
+318,brad_wanamaker,United States,Brad Wanamaker,617342400000,1.90,00,202954,后卫,95.3 公斤
+319,cody_zeller,United States,Cody Zeller,718257600000,2.11,00,203469,前锋-中锋,108.9 公斤
+320,terry_rozier,United States,Terry Rozier,763880400000,1.85,00,1626179,后卫,86.2 公斤
+321,malik_monk,United States,Malik Monk,886568400000,1.90,00,1628370,后卫,90.7 公斤
+322,miles_bridges,United States,Miles Bridges,890456400000,1.98,00,1628970,前锋,102.1 公斤
+323,devonte_graham,United States,Devonte' Graham,793429200000,1.85,00,1628984,后卫,88.5 公斤
+324,caleb_martin,United States,Caleb Martin,812260800000,1.96,00,1628997,前锋,93.0 公斤
+325,cody_martin,United States,Cody Martin,812260800000,1.96,00,1628998,前锋,93.0 公斤
+326,pj_washington,United States,P.J. Washington,903844800000,2.01,00,1629023,前锋,104.3 公斤
+327,jalen_mcdaniels,United States,Jalen McDaniels,886222800000,2.06,00,1629667,前锋-中锋,93.0 公斤
+328,lamelo_ball,United States,LaMelo Ball,998452800000,1.98,00,1630163,后卫,81.6 公斤
+329,vernon_carey_jr,United States,Vernon Carey Jr.,983077200000,2.06,00,1630176,前锋-中锋,122.5 公斤
+330,grant_riller,United States,Grant Riller,855378000000,1.88,00,1630203,后卫,86.2 公斤
+331,nick_richards,Jamaica,Nick Richards,880779600000,2.13,00,1630208,中锋,111.1 公斤
+332,nate_darling,Canada,Nate Darling,904449600000,1.98,00,1630268,后卫,90.7 公斤
+333,chris_paul,United States,Chris Paul,484200000000,1.83,00,101108,后卫,79.4 公斤
+334,e'twaun_moore,United States,E'Twaun Moore,604386000000,1.90,00,202734,后卫,86.6 公斤
+335,jae_crowder,United States,Jae Crowder,647236800000,1.98,00,203109,前锋,106.6 公斤
+336,dario_saric,Croatia,Dario Saric,765777600000,2.08,00,203967,前锋-中锋,102.1 公斤
+337,langston_galloway,United States,Langston Galloway,692254800000,1.85,00,204038,后卫,90.7 公斤
+338,frank_kaminsky,United States,Frank Kaminsky,733899600000,2.13,00,1626163,前锋-中锋,108.9 公斤
+339,devin_booker,United States,Devin Booker,846651600000,1.96,00,1626164,后卫,93.4 公斤
+340,cameron_payne,United States,Cameron Payne,776318400000,1.85,00,1626166,后卫,83.0 公斤
+341,abdel_nader,Egypt,Abdel Nader,748929600000,1.96,00,1627846,前锋,102.1 公斤
+342,torrey_craig,United States,Torrey Craig,661582800000,2.01,00,1628470,前锋,100.2 公斤
+343,mikal_bridges,United States,Mikal Bridges,841377600000,1.98,00,1628969,前锋,94.8 公斤
+344,jevon_carter,United States,Jevon Carter,811051200000,1.85,00,1628975,后卫,90.7 公斤
+345,deandre_ayton,Bahamas,Deandre Ayton,901166400000,2.11,00,1629028,中锋,113.4 公斤
+346,cameron_johnson,United States,Cameron Johnson,825829200000,2.03,00,1629661,前锋,95.3 公斤
+347,jalen_smith,United States,Jalen Smith,953182800000,2.08,00,1630188,前锋-中锋,97.5 公斤
+348,ty-shon_alexander,United States,Ty-Shon Alexander,900561600000,1.90,00,1630234,后卫,88.5 公斤
+349,ricky_rubio,Spain,Ricky Rubio,656481600000,1.90,00,201937,后卫,86.2 公斤
+350,ed_davis,United States,Ed Davis,613022400000,2.06,00,202334,中锋-前锋,98.9 公斤
+351,d'angelo_russell,United States,D 'Angelo Russell,825051600000,1.93,00,1626156,后卫,87.5 公斤
+352,karl-anthony_towns,United States,Karl Anthony Towns,816411600000,2.11,00,1626157,中锋-前锋,112.5 公斤
+353,malik_beasley,United States,Malik Beasley,848984400000,1.93,00,1627736,后卫,84.8 公斤
+354,jake_layman,United States,Jake Layman,763016400000,2.03,00,1627774,前锋,94.8 公斤
+355,juan_hernangomez,Spain,Juancho Hernangomez,812260800000,2.06,00,1627823,前锋,97.1 公斤
+356,josh_okogie,Nigeria,Josh Okogie,904622400000,1.93,00,1629006,后卫,96.6 公斤
+357,jarred_vanderbilt,United States,Jarred Vanderbilt,923115600000,2.06,00,1629020,前锋,97.1 公斤
+358,jordan_mclaughlin,United States,Jordan McLaughlin,829022400000,1.80,00,1629162,后卫,83.9 公斤
+359,jarrett_culver,United States,Jarrett Culver,919486800000,1.98,00,1629633,后卫-前锋,88.5 公斤
+360,jaylen_nowell,United States,Jaylen Nowell,931492800000,1.93,00,1629669,后卫,91.2 公斤
+361,naz_reid,United States,Naz Reid,935640000000,2.06,00,1629675,中锋-前锋,119.7 公斤
+362,anthony_edwards,United States,Anthony Edwards,996984000000,1.93,00,1630162,后卫,102.1 公斤
+363,jaden_mcdaniels,United States,Jaden McDaniels,970200000000,2.06,00,1630183,前锋,83.9 公斤
+364,wayne_ellington,United States,Wayne Ellington,565160400000,1.93,00,201961,后卫,93.9 公斤
+365,cory_joseph,Canada,Cory Joseph,682660800000,1.90,00,202709,后卫,90.7 公斤
+366,mason_plumlee,United States,Mason Plumlee,636613200000,2.11,00,203486,前锋-中锋,115.2 公斤
+367,rodney_mcgruder,United States,Rodney McGruder,680760000000,1.93,00,203585,后卫,93.0 公斤
+368,jerami_grant,United States,Jerami Grant,763448400000,2.03,00,203924,前锋,95.3 公斤
+369,jahlil_okafor,United States,Jahlil Okafor,819003600000,2.08,00,1626143,中锋-前锋,122.5 公斤
+370,josh_jackson,United States,Josh Jackson,855550800000,2.03,00,1628367,后卫-前锋,93.9 公斤
+371,dennis_smith jr.,United States,Dennis Smith Jr.,880434000000,1.88,00,1628372,后卫,93.0 公斤
+372,frank_jackson,United States,Frank Jackson,894254400000,1.90,00,1628402,后卫,93.0 公斤
+373,hamidou_diallo,United States,Hamidou Diallo,901857600000,1.96,00,1628977,后卫,91.6 公斤
+374,tyler_cook,United States,Tyler Cook,874987200000,2.03,00,1629076,前锋,115.7 公斤
+375,sekou_doumbouya,France,Sekou Doumbouya,977547600000,2.03,00,1629635,前锋,104.3 公斤
+376,deividas_sirvydis,Lithuania,Deividas Sirvydis,960609600000,2.03,00,1629686,前锋-后卫,86.2 公斤
+377,killian_hayes,France,Killian Hayes,996206400000,1.96,00,1630165,后卫,88.5 公斤
+378,saddiq_bey,United States,Saddiq Bey,923630400000,2.01,00,1630180,前锋,97.5 公斤
+379,isaiah_stewart,United States,Isaiah Stewart,990504000000,2.03,00,1630191,前锋-中锋,113.4 公斤
+380,saban_lee,United States,Saben Lee,930110400000,1.88,00,1630240,后卫,83.0 公斤
+381,stephen_curry,United States,Stephen Curry,574318800000,1.90,00,201939,后卫,83.9 公斤
+382,klay_thompson,United States,Klay Thompson,634453200000,1.98,00,202691,后卫,97.5 公斤
+383,draymond_green,United States,Draymond Green,636526800000,1.98,00,203110,前锋,104.3 公斤
+384,kent_bazemore,United States,Kent Bazemore,615268800000,1.93,00,203145,后卫-前锋,88.5 公斤
+385,andrew_wiggins,Canada,Andrew Wiggins,793515600000,2.01,00,203952,前锋,89.4 公斤
+386,kelly_oubre jr.,United States,Kelly Oubre Jr.,818485200000,2.01,00,1626162,前锋-后卫,92.1 公斤
+387,kevon_looney,United States,Kevon Looney,823582800000,2.06,00,1626172,前锋,100.7 公斤
+388,gary_payton ii,United States,Gary Payton II,723186000000,1.90,00,1627780,后卫,88.5 公斤
+389,damion_lee,United States,Damion Lee,719640000000,1.96,00,1627814,后卫-前锋,95.3 公斤
+390,mychal_mulder,Canada,Mychal Mulder,771393600000,1.90,00,1628539,后卫,83.5 公斤
+391,juan_toscano-anderson,United States,Juan Toscano-Anderson,734414400000,1.98,00,1629308,前锋,94.8 公斤
+392,alen_smailagic,Serbia,Alen Smailagic,966571200000,2.08,00,1629346,前锋,97.5 公斤
+393,eric_paschall,United States,Eric Paschall,847083600000,1.98,00,1629672,前锋,115.7 公斤
+394,jordan_poole,United States,Jordan Poole,929764800000,1.93,00,1629673,后卫,88.0 公斤
+395,james_wiseman,United States,James Wiseman,986014800000,2.13,00,1630164,中锋,108.9 公斤
+396,nico_mannion,Italy,Nico Mannion,984546000000,1.88,00,1630185,后卫,86.2 公斤
+397,kevin_love,United States,Kevin Love,589608000000,2.03,00,201567,前锋-中锋,113.9 公斤
+398,matthew_dellavedova,Australia,Matthew Dellavedova,652766400000,1.90,00,203521,后卫,90.7 公斤
+399,larry_nance jr.,United States,Larry Nance Jr.,725864400000,2.01,00,1626204,前锋-中锋,111.1 公斤
+400,cedi_osman,Turkey,Cedi Osman,797313600000,2.01,00,1626224,前锋,104.3 公斤
+401,taurean_prince,United States,Taurean Prince,764312400000,2.01,00,1627752,前锋,98.9 公斤
+402,jarrett_allen,United States,Jarrett Allen,893131200000,2.11,00,1628386,中锋,110.2 公斤
+403,isaiah_hartenstein,Germany,Isaiah Hartenstein,894340800000,2.13,00,1628392,中锋-前锋,113.4 公斤
+404,damyean_dotson,United States,Damyean Dotson,768196800000,1.96,00,1628422,后卫,95.3 公斤
+405,collin_sexton,United States,Collin Sexton,915426000000,1.85,00,1629012,后卫,86.2 公斤
+406,darius_garland,United States,Darius Garland,948862800000,1.85,00,1629636,后卫,87.1 公斤
+407,mfiondu_kabengele,Canada,Mfiondu Kabengele,871531200000,2.06,00,1629662,前锋-中锋,113.4 公斤
+408,dylan_windler,United States,Dylan Windler,843364800000,1.98,00,1629685,后卫-前锋,88.9 公斤
+409,dean_wade,United States,Dean Wade,848466000000,2.06,00,1629731,前锋-中锋,103.4 公斤
+410,isaac_okoro,United States,Isaac Okoro,980485200000,1.96,00,1630171,前锋-后卫,102.1 公斤
+411,lamar_stevens,United States,Lamar Stevens,868420800000,1.98,00,1630205,前锋,104.3 公斤
+412,brodric_thomas,United States,Brodric Thomas,854427600000,1.96,00,1630271,后卫,83.9 公斤
+413,eric_gordon,United States,Eric Gordon,599029200000,1.90,00,201569,后卫,97.5 公斤
+414,d.j._augustin,United States,D.J. Augustin,563518800000,1.80,00,201571,后卫,83.0 公斤
+415,john_wall,United States,John Wall,652593600000,1.90,00,202322,后卫,95.3 公斤
+416,avery_bradley,United States,Avery Bradley,659595600000,1.90,00,202340,后卫,81.6 公斤
+417,kelly_olynyk,Canada,Kelly Olynyk,672033600000,2.11,00,203482,前锋-中锋,108.9 公斤
+418,dante_exum,Australia,Dante Exum,805608000000,1.96,00,203957,后卫,97.1 公斤
+419,christian_wood,United States,Christian Wood,812174400000,2.08,00,1626174,前锋,97.1 公斤
+420,danuel_house,United States,Danuel House Jr.,739425600000,1.98,00,1627863,前锋-后卫,99.8 公斤
+421,david_nwaba,United States,David Nwaba,726987600000,1.96,00,1628021,后卫-前锋,99.3 公斤
+422,d.j._wilson,United States,D.J. Wilson,824706000000,2.08,00,1628391,前锋,104.8 公斤
+423,sterling_brown,United States,Sterling Brown,792392400000,1.96,00,1628425,后卫-前锋,99.3 公斤
+424,daquan_jeffries,United States,DaQuan Jeffries,872913600000,1.96,00,1629610,后卫-前锋,104.3 公斤
+425,kevin_porter_jr,United States,Kevin Porter Jr.,957412800000,1.93,00,1629645,后卫-前锋,92.1 公斤
+426,armonibrooks,United States,Armoni Brooks,897019200000,1.90,00,1629717,后卫,88.5 公斤
+427,kenyon_martin_jr,United States,Kenyon Martin Jr.,978757200000,1.98,00,1630231,前锋,97.5 公斤
+428,anthony_lamb,United States,Anthony Lamb,885272400000,1.98,00,1630237,前锋,103.0 公斤
+429,jaesean_tate,United States,Jae'Sean Tate,814852800000,1.93,00,1630256,前锋,104.3 公斤
+430,jeremy_lamb,United States,Jeremy Lamb,707198400000,1.96,00,203087,后卫-前锋,81.6 公斤
+431,justin_holiday,United States,Justin Holiday,607752000000,1.98,00,203200,前锋-后卫,81.6 公斤
+432,doug_mcdermott,United States,Doug McDermott,694414800000,2.01,00,203926,前锋,102.1 公斤
+433,tj_warren,United States,T.J. Warren,747201600000,2.03,00,203933,前锋,99.8 公斤
+434,jakarr_sampson,United States,JaKarr   Sampson,732603600000,2.01,00,203960,前锋,97.1 公斤
+435,t.j._mcconnell,United States,T.J. McConnell,701499600000,1.85,00,204456,后卫,86.2 公斤
+436,myles_turner,United States,Myles Turner,827643600000,2.11,00,1626167,中锋-前锋,113.4 公斤
+437,domantas_sabonis,Lithuania,Domantas Sabonis,831096000000,2.11,00,1627734,前锋-中锋,108.9 公斤
+438,caris_levert,United States,Caris LeVert,777787200000,1.98,00,1627747,后卫,93.0 公斤
+439,malcolm_brogdon,United States,Malcolm Brogdon,724050000000,1.96,00,1627763,后卫,103.9 公斤
+440,edmond_sumner,United States,Edmond Sumner,820386000000,1.93,00,1628410,后卫,88.9 公斤
+441,amida_brimah,United States,Amida Brimah,760942800000,2.08,00,1628578,中锋,104.3 公斤
+442,aaron_holiday,United States,Aaron Holiday,844056000000,1.83,00,1628988,后卫,83.9 公斤
+443,goga_bitadze,Georgia,Goga Bitadze,932443200000,2.11,00,1629048,中锋-前锋,113.4 公斤
+444,oshae_brissett,Canada,Oshae Brissett,898315200000,2.01,00,1629052,前锋-后卫,95.3 公斤
+445,kelan_martin,United States,Kelan Martin,807422400000,1.96,00,1629103,前锋,104.3 公斤
+446,cassius_stanley,United States,Cassius Stanley,934948800000,1.96,00,1630199,后卫,86.2 公斤
+447,udonis_haslem,United States,Udonis Haslem,329371200000,2.03,00,2617,前锋,106.6 公斤
+448,andre_iguodala,United States,Andre Iguodala,444114000000,1.98,00,2738,后卫-前锋,97.5 公斤
+449,trevor_ariza,United States,Trevor Ariza,488952000000,2.03,00,2772,前锋,97.5 公斤
+450,goran_dragic,Slovenia,Goran Dragic,515736000000,1.90,00,201609,后卫,86.2 公斤
+451,nemanja_bjelica,Serbia,Nemanja Bjelica,579153600000,2.08,00,202357,前锋,106.1 公斤
+452,jimmy_butler,United States,Jimmy Butler,621748800000,2.01,00,202710,前锋,104.3 公斤
+453,dewayne_dedmon,United States,Dewayne Dedmon,618897600000,2.13,00,203473,中锋,111.1 公斤
+454,victor_oladipo,United States,Victor Oladipo,704952000000,1.93,00,203506,后卫,96.6 公斤
+455,bam_adebayo,United States,Bam Adebayo,869198400000,2.06,00,1628389,中锋-前锋,115.7 公斤
+456,duncan_robinson,United States,Duncan Robinson,766987200000,2.01,00,1629130,前锋,97.5 公斤
+457,kendrick_nunn,United States,Kendrick Nunn,807422400000,1.88,00,1629134,后卫,86.2 公斤
+458,gabe_vincent,United States,Gabe Vincent,834724800000,1.90,00,1629216,后卫,90.7 公斤
+459,max_strus,United States,Max Strus,827989200000,1.96,00,1629622,后卫-前锋,97.5 公斤
+460,tyler_herro,United States,Tyler Herro,948344400000,1.96,00,1629639,后卫,88.5 公斤
+461,kz_okpala,United States,KZ Okpala,925272000000,2.03,00,1629644,前锋-后卫,97.5 公斤
+462,precious_achiuwa,Nigeria,Precious Achiuwa,937713600000,2.03,00,1630173,前锋,102.1 公斤
+463,hassan_whiteside,United States,Hassan Whiteside,613713600000,2.13,00,202355,中锋,120.2 公斤
+464,harrison_barnes,United States,Harrison Barnes,707198400000,2.03,00,203084,前锋,102.1 公斤
+465,maurice_harkless,United States,Maurice Harkless,737092800000,2.01,00,203090,前锋-后卫,99.8 公斤
+466,delon_wright,United States,Delon Wright,704260800000,1.96,00,1626153,后卫,83.9 公斤
+467,richaun_holmes,United States,Richaun Holmes,750657600000,2.08,00,1626158,前锋,106.6 公斤
+468,buddy_hield,Bahamas,Buddy Hield,724568400000,1.93,00,1627741,后卫,99.8 公斤
+469,damian_jones,United States,Damian Jones,804484800000,2.11,00,1627745,中锋,111.1 公斤
+470,de'aaron_fox,United States,De'Aaron Fox,882594000000,1.90,00,1628368,后卫,83.9 公斤
+471,marvin_bagley_iii,United States,Marvin Bagley III,921387600000,2.11,00,1628963,前锋,106.6 公斤
+472,chimezie_metu,United States,Chimezie Metu,859006800000,2.06,00,1629002,前锋-中锋,102.1 公斤
+473,terence_davis,United States,Terence Davis,863755200000,1.93,00,1629056,后卫,91.2 公斤
+474,kyle_guy,United States,Kyle Guy,871272000000,1.85,00,1629657,后卫,75.8 公斤
+475,justin_james,United States,Justin James,854082000000,2.01,00,1629713,后卫-前锋,86.2 公斤
+476,chris_silva,Gabon,Chris Silva,843105600000,2.03,00,1629735,前锋,106.1 公斤
+477,tyrese_haliburton,United States,Tyrese Haliburton,951800400000,1.96,00,1630169,后卫,83.9 公斤
+478,jahmius_ramsey,United States,Jahmi'us Ramsey,992059200000,1.90,00,1630186,后卫,86.2 公斤
+479,robert_woodard_ii,United States,Robert Woodard II,937972800000,1.98,00,1630218,前锋,106.6 公斤
+480,kyle_lowry,United States,Kyle Lowry,512110800000,1.83,00,200768,后卫,88.9 公斤
+481,aron_baynes,Australia,Aron Baynes,534488400000,2.08,00,203382,中锋-前锋,117.9 公斤
+482,rodney_hood,United States,Rodney Hood,719553600000,2.03,00,203918,后卫-前锋,94.3 公斤
+483,khem_birch,Canada,Khem Birch,717652800000,2.06,00,203920,中锋,105.7 公斤
+484,stanley_johnson,United States,Stanley Johnson,833342400000,1.98,00,1626169,前锋-后卫,109.8 公斤
+485,deandre'_bembry,United States,DeAndre' Bembry,773294400000,1.96,00,1627761,后卫-前锋,95.3 公斤
+486,pascal_siakam,Cameroon,Pascal Siakam,765262800000,2.06,00,1627783,前锋,104.3 公斤
+487,fred_vanvleet,United States,Fred VanVleet,762152400000,1.85,00,1627832,后卫,89.4 公斤
+488,og_anunoby,United Kingdom,OG Anunoby,869112000000,2.01,00,1628384,前锋,105.2 公斤
+489,chris_boucher,Saint Lucia,Chris Boucher,726728400000,2.06,00,1628449,前锋-中锋,90.7 公斤
+490,paul_watson,United States,Paul Watson,788763600000,1.98,00,1628778,后卫,95.3 公斤
+491,gary_trent_jr,United States,Gary Trent Jr.,916635600000,1.96,00,1629018,后卫-前锋,94.8 公斤
+492,yuta_watanabe,Japan,Yuta Watanabe,782020800000,2.06,00,1629139,后卫-前锋,97.5 公斤
+493,malachi_flynn,United States,Malachi Flynn,894772800000,1.85,00,1630201,后卫,79.4 公斤
+494,jalen_harris,United States,Jalen Harris,903067200000,1.96,00,1630223,后卫,88.5 公斤
+495,freddie_gillespie,United States,Freddie Gillespie,866260800000,2.06,00,1630273,前锋,111.1 公斤
