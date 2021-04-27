@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %} {{ post['displayNameEn'] }} {% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="title">Title</label>
+    <h1>{{ post['displayNameEn'] }}</h1>
+    <div class="about">by {{ post['position'] }} </div>
+    <label for="body">Body</label>
+
+  </form>
+  <hr>
+
+{% endblock %}
+

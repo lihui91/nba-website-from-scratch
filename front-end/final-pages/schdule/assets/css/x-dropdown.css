@@ -41,3 +41,8 @@ a:hover, a:focus {
   padding: 8px 0px;
 }
 
+.dropdown-menu {
+  max-height: 200px;
+  overflow-x: hidden;
+}
+
