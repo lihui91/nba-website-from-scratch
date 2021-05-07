@@ -4,15 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>players</title>
+    <title>teams</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/x-dropdown.css">
 </head>
 
 <body style="background: #e6e6e6;">
@@ -20,9 +16,9 @@
         <div class="container"><a class="navbar-brand" href="#"><i class="fa fa-star"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto options">
-                    <li class="nav-item"><a class="nav-link" href="#">Games</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Games</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Teams</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Players</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Players</a></li>
                 </ul>
                 <ul class="navbar-nav login-more">
                     <li class="nav-item"></li>
@@ -32,447 +28,132 @@
             </div>
         </div>
     </nav>
-    <section id="player-info">
-        <div class="row player-info r1">
-            <div class="col">
-                <h1>All Players</h1>
+    <section id="calendar">
+        <div class="row">
+            <div class="col calendar col-cur-date" style="background: #ffffff;height: 61px;">
+                <p class="cur-date">April 2021&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fa fa-calendar"></i></p>
             </div>
-            <div class="col"></div>
-            <div class="col">
-                <div class="search-certain-player-div"><input type="text" class="search-certain-player" placeholder="    Search Player"></div>
-            </div>
-        </div>
-        <div class="row r2">
-            <div class="col">
-                <div class="x-dropdown dropdown">
-                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>All Players</span><i class="material-icons">keyboard_arrow_down</i></div>
-                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">xxxxx1</a><a class="dropdown-item" role="presentation" href="#">xxxx2</a><a class="dropdown-item" role="presentation" href="#">xxxxxx3</a></div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="x-dropdown dropdown">
-                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>All Teams</span><i class="material-icons">keyboard_arrow_down</i></div>
-                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">xxxxx1</a><a class="dropdown-item" role="presentation" href="#">xxxx2</a><a class="dropdown-item" role="presentation" href="#">xxxxxx3</a></div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="x-dropdown dropdown">
-                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>All Positions</span><i class="material-icons">keyboard_arrow_down</i></div>
-                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">xxxxx1</a><a class="dropdown-item" role="presentation" href="#">xxxx2</a><a class="dropdown-item" role="presentation" href="#">xxxxxx3</a></div>
-                </div>
+            <div class="col calendar data-selector" style="background: #ffffff;">
+                <div id="date-selector" style="padding: 0px;padding-top: 11px;padding-right: 0;"><button class="btn date-selector-games" type="button"><i class="fa fa-chevron-left"></i>&nbsp; &nbsp; &nbsp; Previous</button><button class="btn date-selector-games" type="button">Next&nbsp; &nbsp; &nbsp;<i class="fa fa-chevron-right"></i></button></div>
             </div>
         </div>
-        <div class="row r3">
-            <div class="col">
-                <div class="x-dropdown dropdown">
-                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>All Players</span><i class="material-icons">keyboard_arrow_down</i></div>
-                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">xxxxx1</a><a class="dropdown-item" role="presentation" href="#">xxxx2</a><a class="dropdown-item" role="presentation" href="#">xxxxxx3</a></div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="x-dropdown dropdown">
-                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>All Players</span><i class="material-icons">keyboard_arrow_down</i></div>
-                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">xxxxx1</a><a class="dropdown-item" role="presentation" href="#">xxxx2</a><a class="dropdown-item" role="presentation" href="#">xxxxxx3</a></div>
-                </div>
-            </div>
-            <div class="col"></div>
-        </div>
-        <div class="row r4 page-selector">
-            <div class="col">
-                <div class="d-flex float-right">
-                    <p class="page-selector total-rows">533 Rows&nbsp;</p>
-                    <p class="page-selector"><i class="fa fa-dot-circle-o"></i>&nbsp; Page</p>
-                    <div class="dropdown-toggle-div">
-                        <div class="dropdown d-flex d-xl-flex align-items-xl-end"><button class="btn dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button">1 </button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                        </div>
+    </section>
+    <section id="games">
+        <div class="row per-game">
+            <div class="col game-brief">
+                <div class="row row-up">
+                    <div class="col-3 team-info"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg">
+                        <p class="team-name">Timberwolves<br></p>
+                        <p class="text-center team-winning-field">15-42</p>
                     </div>
-                    <p class="page-selector">of 11</p>
-                    <div class="page-selector-div pre"><button class="btn" type="button"><i class="fa fa-chevron-left"></i></button></div>
-                    <div class="page-selector-div nxt"><button class="btn" type="button"><i class="fa fa-chevron-right"></i></button></div>
+                    <div class="col-2 align-self-center score left">
+                        <p>96</p>
+                    </div>
+                    <div class="col-auto align-self-center final">
+                        <p style="font-family: Aldrich, sans-serif;">Final</p>
+                    </div>
+                    <div class="col-2 align-self-center score right">
+                        <p><i class="fa fa-caret-right" style="font-size: 20px;"></i>113</p>
+                    </div>
+                    <div class="col-3 team-info"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg">
+                        <p class="team-name">Trail Blazers<br></p>
+                        <p class="text-center team-winning-field">31-23</p>
+                    </div>
+                </div>
+                <div class="row row-btn">
+                    <div class="col row-btn left"><button class="btn btn-block" type="button">WATCH</button></div>
+                    <div class="col row-btn mid"><button class="btn btn-block" type="button">BOX SCORE</button></div>
+                    <div class="col row-btn right"><button class="btn btn-block right" type="button">GAME DETAILS</button></div>
                 </div>
             </div>
+            <div class="col"></div>
         </div>
-        <div class="row detailed-info">
-            <div class="col">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead class="player-info head">
-                            <tr>
-                                <th class="player-name">PLAYER</th>
-                                <th class="player-team">TEAM</th>
-                                <th class="player-number">NUMBER</th>
-                                <th class="player-position">POSITION</th>
-                                <th class="player-height">HEIGHT</th>
-                                <th class="player-weight">WEIGHT</th>
-                                <th class="player-country">COUNTRY</th>
-                            </tr>
-                        </thead>
-                        <tbody class="player-info body">
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                            <tr>
-                                <td class="player-name">
-                                    <div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="row player-info-image">
-                                                    <div class="col-auto player-image-cropper"><img class="player-small-image" src="assets/img/1630173.png"></div>
-                                                    <div class="col"><a class="player-name-link" href="#">Precious <br>Achiuwa<br><br></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="player-team"><a class="player-team-link" href="#">Mia</a></td>
-                                <td class="player-number">5</td>
-                                <td class="player-position">F</td>
-                                <td class="player-height">6-8</td>
-                                <td class="player-weight">225 lbs</td>
-                                <td class="player-country">Nigeria<br></td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="row per-game">
+            <div class="col game-brief">
+                <div class="row row-up">
+                    <div class="col-3 team-info"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg">
+                        <p class="team-name">Timberwolves<br></p>
+                        <p class="text-center team-winning-field">15-42</p>
+                    </div>
+                    <div class="col-2 align-self-center score left">
+                        <p>96</p>
+                    </div>
+                    <div class="col-auto align-self-center final">
+                        <p style="font-family: Aldrich, sans-serif;">Final</p>
+                    </div>
+                    <div class="col-2 align-self-center score right">
+                        <p><i class="fa fa-caret-right" style="font-size: 20px;"></i>113</p>
+                    </div>
+                    <div class="col-3 team-info"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg">
+                        <p class="team-name">Trail Blazers<br></p>
+                        <p class="text-center team-winning-field">31-23</p>
+                    </div>
+                </div>
+                <div class="row row-btn">
+                    <div class="col row-btn left"><button class="btn btn-block" type="button">WATCH</button></div>
+                    <div class="col row-btn mid"><button class="btn btn-block" type="button">BOX SCORE</button></div>
+                    <div class="col row-btn right"><button class="btn btn-block right" type="button">GAME DETAILS</button></div>
                 </div>
             </div>
+            <div class="col"></div>
+        </div>
+        <div class="row per-game">
+            <div class="col game-brief">
+                <div class="row row-up">
+                    <div class="col-3 team-info"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg">
+                        <p class="team-name">Timberwolves<br></p>
+                        <p class="text-center team-winning-field">15-42</p>
+                    </div>
+                    <div class="col-2 align-self-center score left">
+                        <p>96</p>
+                    </div>
+                    <div class="col-auto align-self-center final">
+                        <p style="font-family: Aldrich, sans-serif;">Final</p>
+                    </div>
+                    <div class="col-2 align-self-center score right">
+                        <p><i class="fa fa-caret-right" style="font-size: 20px;"></i>113</p>
+                    </div>
+                    <div class="col-3 team-info"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg">
+                        <p class="team-name">Trail Blazers<br></p>
+                        <p class="text-center team-winning-field">31-23</p>
+                    </div>
+                </div>
+                <div class="row row-btn">
+                    <div class="col row-btn left"><button class="btn btn-block" type="button">WATCH</button></div>
+                    <div class="col row-btn mid"><button class="btn btn-block" type="button">BOX SCORE</button></div>
+                    <div class="col row-btn right"><button class="btn btn-block right" type="button">GAME DETAILS</button></div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row per-game">
+            <div class="col game-brief">
+                <div class="row row-up">
+                    <div class="col-3 team-info"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg">
+                        <p class="team-name">Timberwolves<br></p>
+                        <p class="text-center team-winning-field">15-42</p>
+                    </div>
+                    <div class="col-2 align-self-center score left">
+                        <p>96</p>
+                    </div>
+                    <div class="col-auto align-self-center final">
+                        <p style="font-family: Aldrich, sans-serif;">Final</p>
+                    </div>
+                    <div class="col-2 align-self-center score right">
+                        <p><i class="fa fa-caret-right" style="font-size: 20px;"></i>113</p>
+                    </div>
+                    <div class="col-3 team-info"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg">
+                        <p class="team-name">Trail Blazers<br></p>
+                        <p class="text-center team-winning-field">31-23</p>
+                    </div>
+                </div>
+                <div class="row row-btn">
+                    <div class="col row-btn left"><button class="btn btn-block" type="button">WATCH</button></div>
+                    <div class="col row-btn mid"><button class="btn btn-block" type="button">BOX SCORE</button></div>
+                    <div class="col row-btn right"><button class="btn btn-block right" type="button">GAME DETAILS</button></div>
+                </div>
+            </div>
+            <div class="col"></div>
         </div>
     </section>
     <script src="assets/js/jquery.min.js"></script>

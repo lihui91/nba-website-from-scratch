@@ -5,7 +5,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #a7a0a2;
+  /*color: #a7a0a2;*/
 }
 
 @media (max-width:767px) {
@@ -39,10 +39,5 @@ a:hover, a:focus {
   right: 0px;
   border: none;
   padding: 8px 0px;
-}
-
-.dropdown-menu {
-  max-height: 200px;
-  overflow-x: hidden;
 }
 

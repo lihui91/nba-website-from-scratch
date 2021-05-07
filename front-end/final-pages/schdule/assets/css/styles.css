@@ -1,171 +1,113 @@
-#player-info {
-  background-color: #fff;
-  margin: 10px 10px 10px 10px;
-  padding: 20px 20px 20px 20px;
+.nav-link {
+  align-items: center;
 }
 
-.row.player-info.r1 {
-  margin: 10px 10px 10px 0px;
+.col.final {
+  width: 20px;
 }
 
-.page-selector {
-  padding: 7px 11px 9px 10px;
-  margin: 10px 10px 10px 10px;
+.team-name {
+  font-weight: 700;
+}
+
+.col.team-info {
+  text-align: center;
   color: #000;
+}
+
+.team-winning-field {
   font-weight: 600;
-  font-size: large;
 }
 
-.player-small-image {
-  height: 100%;
-  width: auto;
-  margin-left: -48%;
+.col-2.align-self-center.score {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
 }
 
-.col-auto.player-image-cropper {
-  width: 2cm;
-  height: 2cm;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-  background-color: #e4e4e4;
-  margin-left: 18px;
+.col.final {
+  text-align: center;
+  padding-top: 73px;
 }
 
-.table-responsive {
-  margin-top: 10px;
-  padding: 0px;
-  table-layout: fixed;
-  max-height: 1000px;
-  max-width: 100%;
-  position: relative;
-}
-
-th, td {
-  min-width: 157px;
-  overflow: hidden;
-  vertical-align: middle;
-}
-
-.player-info.head tr th {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  padding: 10px 10px 10px 10px;
-  border-top: 10px;
-  width: 200px;
-}
-
-.player-info.head tr th:first-child {
-  position: sticky;
-  left: 0;
-  z-index: 2;
-  box-shadow: 3px 0px 3px -1px rgb(159,158,158);
-}
-
-.player-info.body td:first-child {
-  position: sticky;
-  left: 0;
-  z-index: 1;
-  background-color: #fff;
-  min-width: 300px;
-  box-shadow: 3px 0px 3px -1px rgb(159,158,158);
-}
-
-.col-auto {
+.col.row-btn {
   padding-right: 0px;
-  margin-right: 0px;
+  padding-left: 0px;
 }
 
-.player-name-link {
-  padding-top: 0px;
-  position: absolute;
-}
-
-.player-info.body td {
-  vertical-align: middle;
+.btn.btn-block {
+  color: #2d97f9;
+  font-size: medium;
   font-weight: 500;
-  font-family: 'Abel';
-  font-size: x-large;
 }
 
-.player-info.head th {
-  color: #4d4d4d;
+.col.row-btn.left {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.col.row-btn.mid {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+}
+
+.col.row-btn.right {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.row.per-game {
+  background-color: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 0;
+  margin: 10px 20px 10px 20px;
+}
+
+.col.game-brief {
+  background-color: #fff;
+}
+
+.team-name {
+  /*text-align: center;*/
+}
+
+.schdule {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.cur-date {
+  font-weight: 700;
+  padding: 20px 20px 20px 50px;
+}
+
+#calendar {
+  margin: 10px 20px 10px 20px;
+}
+
+.col.calendar {
+  margin: 10px 30px 10px 15px;
+}
+
+.col.calendar.col-cur-date {
+  margin: 10px 0px 10px 15px;
+}
+
+.col.calendar.data-selector {
+  margin: 10px 29px 10px 0px;
+}
+
+#date-selector {
+  padding: 10px 10px 14px 10px;
+  margin: 0px 0px 9px 10px;
+}
+
+.btn.date-selector-games {
   font-weight: 500;
-  font-family: 'Alegreya Sans SC';
-  font-size: x-large;
-  background-color: #e4e4e4;
-  border-bottom: solid 1px #c1bfbf;
-}
-
-.col-auto.player-image-cropper {
-}
-
-.player-number {
-  text-align: right;
-}
-
-.player-height {
-  text-align: right;
-}
-
-.row.player-info-image {
-  padding: 0 0 0 0;
-}
-
-.player-info.body td {
-  border-bottom: solid 1px #c1bfbf;
-}
-
-.player-name-link {
-  color: rgb(132,189,241);
-}
-
-.player-team-link {
-  color: rgb(132,189,241);
-}
-
-.player-team {
-  min-width: 37px;
-}
-
-.btn.dropdown-toggle {
-  position: relative;
-  height: 100%;
-  border: solid 1px #eee;
-}
-
-.dropdown-toggle-div {
-  height: 100%;
-  position: relative;
-  padding-top: 13px;
-}
-
-.page-selector-div.pre {
-  height: 100%;
-  position: relative;
-  margin-top: 13px;
-  border: solid 1px #eee;
-  border-radius: 20% 0 0 20%;
-}
-
-.page-selector-div.nxt {
-  height: 100%;
-  position: relative;
-  margin-top: 13px;
-  border: solid 1px #eee;
-  border-radius: 0 20% 20% 0;
-}
-
-.search-certain-player {
-  margin-top: 2px;
-  height: 48px;
-  width: 300px;
-  border: solid 1px #eeeeee;
-  border-radius: 10px;
-}
-
-.search-certain-player-div {
-  text-align: right;
 }
 

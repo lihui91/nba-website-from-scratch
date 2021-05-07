@@ -1,0 +1,19 @@
+<div class="game-selector">
+	<div class="button-pane pure-form">
+		<button class="pure-button" ng-click="batchActivate('all')">All</button>
+		<button class="pure-button" ng-click="batchActivate('none')">None</button>
+		<button class="pure-button" ng-click="batchActivate('home')">Home</button>
+		<button class="pure-button" ng-click="batchActivate('away')">Away</button>
+		<button class="pure-button" ng-click="batchActivate('wins')">Wins</button>
+		<button class="pure-button" ng-click="batchActivate('losses')">Losses</button>
+		<select ng-model="selectedTeam" ng-options="team.TEAM_ID as team.FULL_NAME for team in teams" ng-change="batchActivate('team')"><option value="">Team</option></select>
+		<select ng-model="selectedLastGames" ng-options="lastGames.value as lastGames.label for lastGames in lastGameValues" ng-change="batchActivate('last_games')"><option value="">Last</option></select>
+	</div>
+	<div class="game-selector-games">
+	  <div ng-mousedown="selectStart(stats)" ng-mouseup="selectEnd(stats)" ng-mouseover="mouseOver(stats)" ng-repeat="stats in gameStats" ng-click="toggle(stats)" ng-class="{'game-select-control': true, 'active': isActive(stats) }">
+	  	<div ng-class="{'home-away-game': true, 'home-game': stats.IS_HOME, 'away-game': !stats.IS_HOME}">{{stats.IS_HOME ? "vs." : "@"}}</div>
+    	<div ng-class="{'win-lose-game': true, 'win-game': stats.WON, 'lose-game': !stats.WON}">{{stats.WON ? "W" : "L"}}</div>
+	  	<div class="team-logo team-logo-{{getTeamAbbrev(stats.OPPONENT_ID)}}"></div>
+	  </div>
+	 </div>
+</div>

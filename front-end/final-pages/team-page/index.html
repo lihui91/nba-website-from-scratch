@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>team</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Data-Table-1.css">
+    <link rel="stylesheet" href="assets/css/Data-Table.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: rgb(230,230,230);">
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark text-center">
+        <div class="container"><a class="navbar-brand" href="#"><i class="fa fa-star"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mx-auto options">
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgba(255,255,255,0.5);">Games</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: rgb(255,255,255);">Teams</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Players</a></li>
+                </ul>
+                <ul class="navbar-nav login-more">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">More</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="top-part" class="top-section">
+        <div class="row" style="height: 200px;">
+            <div class="col-md-2">
+                <div></div>
+            </div>
+            <div class="col-md-4" style="height: 155px;">
+                <div class="bg-div" style="height: 200px;background: url(&quot;assets/img/bull_logo_with_text.svg&quot;) 60px / cover no-repeat;"></div>
+                <div class="small-team-logo"><img src="assets/img/bull_logo.svg"></div>
+                <div class="Team_header_name">
+                    <h1>Chicago Bulls</h1>
+                    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;26-36 | 11th in Eastern</p>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div></div>
+            </div>
+            <div class="col-md-1 align-self-center" style="opacity: 1;filter: blur(0px);">
+                <p class="TeamHeader_rankLabel" style="text-align: center;transform-origin: center;">PPG</p>
+                <h2 class="TeamHeader_rankOrdinal" style="text-align: center;transform-origin: center;">19th</h2>
+                <p class="TeamHeader_rankValue" style="text-align: center;transform-origin: center;">111.3</p>
+            </div>
+            <div class="col-md-1 align-self-center" style="opacity: 1;filter: blur(0px);">
+                <p class="TeamHeader_rankLabel" style="text-align: center;">RPG</p>
+                <h2 class="TeamHeader_rankOrdinal" style="text-align: center;">11th</h2>
+                <p class="TeamHeader_rankValue" style="text-align: center;">44.6</p>
+            </div>
+            <div class="col-md-1 align-self-center" style="opacity: 1;filter: blur(0px);">
+                <p class="TeamHeader_rankLabel" style="text-align: center;">APG</p>
+                <h2 class="TeamHeader_rankOrdinal" style="text-align: center;">3rd</h2>
+                <p class="TeamHeader_rankValue" style="text-align: center;">27.0</p>
+            </div>
+            <div class="col-md-1 align-self-center" style="opacity: 1;filter: blur(0px);">
+                <p class="TeamHeader_rankLabel" style="text-align: center;">OPPG</p>
+                <h2 class="TeamHeader_rankOrdinal" style="text-align: center;">18th</h2>
+                <p class="TeamHeader_rankValue" style="text-align: center;">112.6</p>
+            </div>
+            <div class="col-md-1">
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <section id="roster" class="block">
+        <div class="row">
+            <div class="col">
+                <h5 class="t1">Roster</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class="player-info head">
+                            <tr>
+                                <th>PLAYER</th>
+                                <th>#</th>
+                                <th>POS</th>
+                                <th>HEIGHT</th>
+                                <th>WEIGHT</th>
+                                <th>BIRTHDATE</th>
+                                <th>AGE</th>
+                                <th>EXP</th>
+                                <th>SCHOOL</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tb" class="player-info body">
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                            <tr>
+                                <td class="primary text"><a href="#">Coby White</a></td>
+                                <td class="text">0</td>
+                                <td class="text">G</td>
+                                <td class="text">6-5</td>
+                                <td class="text">195lbs</td>
+                                <td class="text">FEB 16, 2000<br></td>
+                                <td class="text">21</td>
+                                <td class="text">1</td>
+                                <td class="text">North Carolina</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="all-time-records" class="block"></section>
+    <section class="section-flex">
+        <div class="d-flex flex-row justify-content-between div-flex">
+            <div class="a">
+                <h5 class="t1">Coaching Staff</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Head Coach</strong></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Billy Donovan</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Assistant Coach</strong><br></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Chris Fleming<br><br>Mike Wilhelm<br><br>John Bryant<br><br>Joshua Longstaff<br><br>Maurice Cheeks<br><br>Pete Myers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-left b" style="text-align: left;">
+                <h5 class="t1">Fantasy News<br></h5>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-left fantasy-col" style="text-align: left;">
+                            <p class="par1">05/04/2021, 11:47 AM</p>
+                            <p class="par2"><strong>Scores 13 points as starter</strong></p>
+                            <p class="par3">Young has started two games in a row and has looked productive, but he had also delivered some strong performances when coming off the bench as well. The veteran power forward has scored in double digits in seven of his last nine appearances.</p>
+                        </div>
+                        <div class="col-md-12 text-left fantasy-col" style="text-align: left;">
+                            <p class="par1">05/04/2021, 11:45 AM</p>
+                            <p class="par2"><strong>Dishes out six dimes off bench</strong><br></p>
+                            <p class="par3">Satoransky paced Chicago in the assists department and has scored in double digits in each of his last three games. His scoring figures should remain steady in the low tens and has been providing value as a passer too, meaning he could have upside in some deep formats as long as he keeps playing around 20 minutes per game off the bench.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-flex">
+        <div class="d-flex flex-row justify-content-between div-flex">
+            <div class="c">
+                <h5 class="t1">All Time Records</h5>
+                <div class="row part-1" style="height: 440px;">
+                    <div class="col">
+                        <div class="table-responsive block-tb">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Total Points</td>
+                                        <td><a href="#" style="font-size: 16px;">Michael Jordan</a></td>
+                                        <td>29227</td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-responsive block-tb">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Total Points</td>
+                                        <td><a href="#" style="font-size: 16px;">Michael Jordan</a></td>
+                                        <td>29227</td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-responsive block-tb">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Total Points</td>
+                                        <td><a href="#" style="font-size: 16px;">Michael Jordan</a></td>
+                                        <td>29227</td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-responsive block-tb">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Total Points</td>
+                                        <td><a href="#" style="font-size: 16px;">Michael Jordan</a></td>
+                                        <td>29227</td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-responsive block-tb">
+                            <table class="table">
+                                <thead>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Total Points</td>
+                                        <td><a href="#" style="font-size: 16px;">Michael Jordan</a></td>
+                                        <td>29227</td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-left d" style="text-align: left;">
+                <h5 class="t1">Achievements<br></h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Championship Wins</strong></p>
+                    </div>
+                    <div class="col-md-6 part-2-right">
+                        <p class="d-xl-flex">1991,1992,1993,1996,1997,1998</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Conference Titles</strong><br></p>
+                    </div>
+                    <div class="col-md-6 part-2-right">
+                        <p class="d-xl-flex">1991,1992,1993,1996,1997,1998</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Division Titles</strong><br></p>
+                    </div>
+                    <div class="col-md-6 part-2-right">
+                        <p class="d-xl-flex">1975,1991,1992,1993,1996,1997,1998,2011,2012</p>
+                    </div>
+                </div>
+            </div>
+            <div class="e">
+                <h5 class="t1">Background</h5>
+                <div class="row part-3" style="height: 440px;">
+                    <div class="col">
+                        <p><strong>Founded</strong><br></p>
+                        <p><strong>City</strong><br></p>
+                        <p><strong>Arena</strong><br></p>
+                        <p><strong>G-League</strong><br></p>
+                        <p><strong>Owner</strong><br></p>
+                        <p><strong>General Manager</strong><br></p>
+                        <p><strong>Head Coach</strong><br></p>
+                    </div>
+                    <div class="col">
+                        <p>1966</p>
+                        <p>Chicago</p>
+                        <p>United Center</p>
+                        <p>Windy City Bulls</p>
+                        <p>Jerry Reinsdorf</p>
+                        <p>Arturas Karnisovas</p>
+                        <p>Billy Donovan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation" style="text-align: center;">
+                <h3 class="text-uppercase text-center"><a class="text-right" href="#" style="font-family: Abel, sans-serif;">NBA ORGANIZATION</a></h3>
+                <p class="links">NBA Official</p>
+                <p class="links">NBA Careers</p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts" style="text-align: center;">
+                <div>
+                    <p><span class="new-line-span">NBA INITIALTIVES</span> NBA Cares</p>
+                </div>
+                <div></div>
+                <div>
+                    <p class="footer-center-info email text-left">NBA Voices</p>
+                </div>
+                <div>
+                    <p class="footer-center-info email text-left">NBA FIT</p>
+                </div>
+                <div>
+                    <p class="footer-center-info email text-left">Hoops for Troops<br></p>
+                </div>
+                <div>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 footer-contacts" style="text-align: center;">
+                <p><span class="new-line-span">SUBSCRIPTIONS</span> NBA TV</p>
+                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-youtube-play"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="assets/js/Navbar---Apple.js"></script>
+    <script src="assets/js/yangshi.js"></script>
+</body>
+
+</html>
