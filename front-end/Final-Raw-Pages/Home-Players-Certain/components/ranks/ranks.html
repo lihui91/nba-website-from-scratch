@@ -1,0 +1,9 @@
+<h4>{{label}}</h4>
+<div ng-if="player[rankName] == null" class="not-ranked">Not ranked.</div>
+<table ng-if="player[rankName] != null" class="rank-list" ng-mouseout="highlight(null)">
+	<tr ng-class="{'active-player': rank[rankName] === player[rankName]}" ng-mouseover="highlight(rank.PLAYER_ID)" ng-repeat="rank in nearRanks[stat]">
+		<td class="rank-col">{{rank[rankName]}}.</td>
+		<td class="player-col"><a pb-player-link player="rank" season="{{season}}" ng-class="{ highlight: rank.PLAYER_ID === highlightPlayerId}">{{rank.DISPLAY_FIRST_LAST}}</a></td>
+		<td class="stat-col">{{formatter(rank[stat])}}</td>
+	</tr>
+</table>

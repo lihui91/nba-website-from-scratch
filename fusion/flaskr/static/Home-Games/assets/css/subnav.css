@@ -1,0 +1,26 @@
+.sub-nav-div-space {
+  width: 10%;
+}
+
+.subnav {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  box-shadow: -0.5px 0.5px 10px #9C9C9C;
+}
+
+.nav-item.subnav-hd {
+  box-shadow: 3px 0px 3px -1px rgb(159,158,158);
+}
+
+body {
+}
+
+#subnav {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+

@@ -59,7 +59,7 @@ bp = Blueprint('blog', __name__)
 
 
 
-@bp.route('/')
+@bp.route('/', methods = ['GET', 'POST'])
 def index():
     """
         brief@ Put all the player info into the HTML from the DB.
@@ -78,18 +78,28 @@ def index():
     player_position = request.args.get('position_', "All Positions", type=str)
     player_country = request.args.get('country_', 'All Countries', type=str)
 
+    player_full_name = request.form.get('playerfull_')
+    if player_full_name == None:
+        player_full_name = ""
     # filter in name    
     if player_name_fc == "All Players": 
         posts = db.session.query(all_table["players_basic"]).order_by(text('lastNameEn asc'))
     else :
         posts = db.session.query(all_table["players_basic"]).filter(all_table["players_basic"].c.lastNameEn.like("{}%".format(player_name_fc))).order_by(text('lastNameEn asc'))
 
+    # filter in search box
+    if player_full_name != "":
+        posts = db.session.query(all_table["players_basic"]).filter(all_table["players_basic"].c.code.like("%{}%".format(player_full_name))).order_by(text('lastNameEn asc'))
+
+    print(player_full_name)
     # filter in team    
     if player_team != "All Teams": 
         team_id =  db.session.query(all_table["all_team_basic"]).filter_by(nameEn = player_team).all()
         # if the answer is an empty set!
+        print(team_id[0])
+        cur_team_id = team_id[0][-6] 
         if len(team_id) != 0:
-            posts = posts.filter_by(teamId = team_id[0]['id'])
+            posts = posts.filter_by(teamId = cur_team_id)
 
     # filter in position    
     if player_position != "All Positions": 
@@ -107,26 +117,29 @@ def index():
                                      team_ = player_team, 
                                      player_ = player_name_fc, 
                                      position_ = player_position,
-                                     country_ = player_country) \
+                                     country_ = player_country,
+                                     playerfull_ = player_full_name) \
         if posts_paged.has_next else None
 
     prev_url = url_for('blog.index', page=posts_paged.prev_num,
                                      team_ = player_team, 
                                      player_ = player_name_fc, 
                                      position_ = player_position,
-                                     country_ = player_country) \
+                                     country_ = player_country,
+                                     playerfull_ = player_full_name) \
         if posts_paged.has_prev else None
 
     # count current items and total pages
     total_player_num = posts.count() 
     total_pages = math.ceil(total_player_num * 1.0 / current_app.config['POSTS_PER_PAGE'])
 
-    return render_template('blog/all_player_brief.html', 
+    return render_template('blog/Home-Players.html', # all_player_brief
                             posts=posts_paged.items, 
                             prev_url = prev_url, 
                             next_url = next_url,
                             page = page,
                             player_name_fc = player_name_fc,
+                            player_full_name = player_full_name,
                             player_team = player_team,
                             player_position = player_position,
                             player_country = player_country,
@@ -191,44 +204,28 @@ def get_team_info(id, table_name = "", check_author=True):
     return cur_player
 
 
+# @bp.route('/<int:id>/update', methods=('GET', 'POST'))
 @bp.route('/<int:id>/update', methods=('GET', 'POST'))
 def update(id):
     brief_info = get_player_info(id, "players_basic")
     aver_stastic = get_player_info(id, "players_statAverage")
-    team_info = get_team_info(brief_info[0]['teamId'], "all_team_basic")
+    # print("['teamId']")
+    # print(type(brief_info[0]))
+    team_id = brief_info[0][-1]
+    team_info = get_team_info(team_id, "all_team_basic") # brief_info[0]['teamId']
 
-    print(brief_info)
-    # if request.method == 'POST':
-    #     title = request.form['title']
-    #     body = request.form['body']
-    #     error = None
-
-    #     if not title:
-    #         error = 'Title is required.'
-
-    #     if error is not None:
-    #         flash(error)
-    #     else:
-    #         db = get_db()
-    #         db.execute(
-    #             'UPDATE post SET title = ?, body = ?'
-    #             ' WHERE id = ?',
-    #             (title, body, id)
-    #         )
-    #         db.commit()
-    #         return redirect(url_for('blog.index'))
     """ Note: it is selected as a list! """
-    print(player_status_info_color[brief_info[0]['teamId']])
+    print(player_status_info_color[team_id])
     
 
-    bg_color = player_status_info_color[brief_info[0]['teamId']]
+    bg_color = player_status_info_color[team_id]
 
-
-    return render_template('blog/certain_player.html', 
+    return render_template('blog/Home-Player-Certain.html', # certain_player.html', # 
                             brief_info = brief_info[0], 
                             aver_stastic = aver_stastic[0],
                             team_info = team_info[0], 
-                            bg_color = bg_color)
+                            bg_color = bg_color
+                            )
 
 
 # @bp.route('/<int:id>/delete', methods=('POST',))

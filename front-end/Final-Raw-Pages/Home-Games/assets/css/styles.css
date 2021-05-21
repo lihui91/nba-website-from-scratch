@@ -1,0 +1,181 @@
+.nav-link {
+  align-items: center;
+}
+
+.col.final {
+  width: 20px;
+}
+
+.team-name {
+  font-weight: 700;
+}
+
+.col.team-info {
+  text-align: center;
+  color: #000;
+}
+
+.team-winning-field {
+  font-weight: 600;
+}
+
+.col-2.align-self-center.score {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.col.final {
+  text-align: center;
+  padding-top: 73px;
+}
+
+.col.row-btn {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.btn.btn-block {
+  color: #2d97f9;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.col.row-btn.left {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.col.row-btn.mid {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+}
+
+.col.row-btn.right {
+  border: 1px solid rgba(101,101,101,0.31);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.row.per-game {
+  background-color: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 0;
+  margin: 10px 20px 10px 20px;
+}
+
+.col.game-brief {
+  background-color: #fff;
+  border: 1px solid rgba(101,101,101,0.31);
+}
+
+.team-name {
+  /*text-align: center;*/
+}
+
+.schdule {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.cur-date {
+  font-weight: 700;
+  padding: 20px 20px 20px 50px;
+}
+
+.col.calendar {
+  margin: 10px 30px 10px 15px;
+}
+
+.col.calendar.col-cur-date {
+  margin: 10px 0px 10px 15px;
+}
+
+.col.calendar.data-selector {
+  margin: 10px 29px 10px 0px;
+}
+
+#date-selector {
+  padding: 10px 10px 14px 10px;
+  margin: 0px 0px 9px 10px;
+}
+
+.btn.date-selector-games {
+  font-weight: 500;
+}
+
+#games {
+  /*width: 90%;*/
+  margin: 0 auto;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+#calendar {
+  margin-top: 80px;
+  margin-left: 3%;
+  margin-right: 2.5%;
+}
+
+.game-brief {
+  /*box-shadow: -0.5px 0.5px 10px #9C9C9C;*/
+  /*border-radius: 5px;*/
+  /*margin-right: 10px;*/
+}
+
+.nav.nav-tabs.subnav-nav {
+  /*margin-left: 10%;*/
+}
+
+.col.game-leaders {
+  padding: 20px;
+  background-color: #fff;
+  /*border-radius: 5px;*/
+  /*box-shadow: -0.5px 0.5px 10px #9C9C9C;*/
+  margin-left: 10px;
+  border: 1px solid rgba(101,101,101,0.31);
+}
+
+.row.leader1 {
+  border-top: solid 1px;
+}
+
+.row.leader2 {
+  border-bottom: solid 1px #c1bfbf;
+  border-top: solid 1px #c1bfbf;
+}
+
+.row.per-game {
+  box-shadow: -0.5px -0.5px 10px #9C9C9C;
+}
+
+.game-leaders-header {
+  font-size: initial;
+  font-weight: 500;
+  /*padding-top: 10px;*/
+}
+
+.game-leaders-head-cols {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 28px;
+}
+
+.palyer-name {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.player-name {
+}
+
+.static {
+  font-size: 19px;
+  font-weight: 500;
+}
+

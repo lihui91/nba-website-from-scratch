@@ -1,0 +1,37 @@
+<div class="shot-chart-filters">
+  <form>
+    <div class="filter-group" style="display: block">
+      <div class="general-filter-options">
+        <label class="check-label"><input ng-model="filters.sizeEncode" type="checkbox"> Encode Shot Frequency</label>
+        <label class="check-label"><input ng-model="filters.showLegend" type="checkbox"> Show Legend</label>
+      </div>
+      <div ng-if="showDataTypes" class="data-type-options">
+        <label class="check-label" title="Uses the raw average data"><input ng-model="filters.dataType" value="raw" type="radio"> Raw Data</label>
+        <label ng-if="showSmooth" class="check-label" title="Uses a weighted average of shots in a ~3ft radius"><input ng-model="filters.dataType" value="weighted" type="radio"> Smoothed Data</label>
+        <label ng-if="showZone" class="check-label" title="Color shots based on zone"><input ng-model="filters.dataType" value="zones" type="radio"> Zones</label>
+      </div>
+      <div ng-if="showColors" class="data-type-options">
+        <label class="check-label" title="5 colors"><input type="radio" name="colorRange" value="five" ng-model="filters.colorRange"><span class='color-scheme-boxes'><span ng-repeat="color in colorSchemes.five" style="background-color: {{color}};" class="color-scheme-box"></span></span></label>
+        <label class="check-label" title="6 colors"><input type="radio" name="colorRange" value="six" ng-model="filters.colorRange"><span class='color-scheme-boxes'><span ng-repeat="color in colorSchemes.six" style="background-color: {{color}};" class="color-scheme-box"></span></span></label>
+      </div>
+    </div>
+
+    <div ng-if="showStat" class="chart-type-options">
+      <label class="check-label" title="Field Goal %"><input type="radio" name="stat" value="fgpct" ng-model="filters.stat"> Field Goal %</label>
+      <label class="check-label" title="Points Per Shot"><input type="radio" name="stat" value="pps" ng-model="filters.stat"> Points Per Shot</label>
+    </div>
+
+    <div class="slider-controls">
+      <div class="slider-control">
+        <label>Number of Shots</label>
+        <pb-range-slider  min="1" max="{{countMax}}" step="{{countStep}}" model="filters.count" type="integer" clamp-max="{{countClampMax}}"></pb-range-slider>
+      </div>
+
+
+      <div class="slider-control">
+        <label>Field Goal %</label>
+        <pb-range-slider min="0" max="1" step="0.01" model="filters.efficiency" type="percent"></pb-range-slider>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,21 @@
+<div class="player-selector {{activeSortable.cssClass ? activeSortable.cssClass : ''}}">
+	<div class="player-input">
+		<form class="pure-form" ng-submit="selectPlayer()">
+			<button type="button" class="pure-button" ng-click="hide()" style="float: right">Hide</button>
+			<select ng-model="selectedSeason" ng-options="season.id as season.label for season in seasons" ng-change="changeSeason(season)" title="Season"></select>
+			<input ng-model="playerQuery" class="player-query" placeholder="Enter player name, team name, or position" ng-change="autocomplete(playerQuery)">
+		  <button type="button" ng-class="{ 'pure-button': true, 'active' : activeSortable === sortable }" style="margin-right: 5px" ng-repeat="sortable in sortables" ng-click="sortPlayers(sortable)">{{sortable.label}}</button>
+		</form>
+	</div>
+	<div class="player-listing pure-g">
+		<div ng-repeat="group in groupedPlayers" class="pure-u-1-8 player-listing-group" ng-show="group.visible">
+			<div ng-if="group.header" class="group-header">{{group.header}}</div>
+			<ol>
+				<li ng-repeat="p in group.players" class="{{p.visible ? '' : 'ng-hide'}}"> <!-- for some reason ng-show and ng-class get screwed up adding ng-hide when I filter then switch sorting... so this is the workaround -->
+					<span class="number">{{p.index + 1}}.</span> <a class="team-{{getTeamAbbrev(p.TEAM_ID)}} position-{{p.POSITION}}" pb-player-link player="p" season="{{selectedSeason}}" ng-click="selectPlayer(p, selectedSeason);$event.preventDefault();$event.stopPropagation();">{{p.DISPLAY_FIRST_LAST}}</a>
+				</li>
+			</ol>
+		</div>
+	</div>
+
+</div>

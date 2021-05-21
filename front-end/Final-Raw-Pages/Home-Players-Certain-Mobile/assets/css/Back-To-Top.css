@@ -1,0 +1,42 @@
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(2,104,214,0.8);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(2,104,214,0.8);
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.player-brief-value {
+  font-weight: 200;
+}
+

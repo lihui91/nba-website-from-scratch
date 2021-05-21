@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-
+from datetime import timedelta
 
 
 
@@ -13,6 +13,7 @@ def create_app(test_config=None):
         SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://truth:916003@192.168.80.230:3306/my_basketball',
         SQLALCHEMY_TRACK_MODIFICATIONS = True,
         POSTS_PER_PAGE = 50,
+        SEND_FILE_MAX_AGE_DEFAULT = timedelta(seconds = 1)
     )
 
     if test_config is None:
@@ -38,6 +39,13 @@ def create_app(test_config=None):
 
     from . import auth
     app.register_blueprint(auth.bp)
+
+    from . import games
+    app.register_blueprint(games.bp)
+
+
+    from . import teams
+    app.register_blueprint(teams.bp)
 
     from . import blog
     app.register_blueprint(blog.bp)

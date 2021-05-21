@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>players</title>
+    <link rel="stylesheet" href="static/Home-Players/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC">
+    <link rel="stylesheet" href="static/Home-Players/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="static/Home-Players/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="static/Home-Players/css/Back-To-Top.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="static/Home-Players/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="static/Home-Players/css/styles.css">
+    <link rel="stylesheet" href="static/Home-Players/css/subnav.css">
+    <link rel="stylesheet" href="static/Home-Players/css/mydropdown.css">
+</head>
+
+<body style="background: #e6e6e6;">
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark text-center">
+        <div class="container"><a class="navbar-brand" href="#"><img src="static/Home-Players/img/logo-nba.svg"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mx-auto options">
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('games.schedule') }}">Games</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('teams.all') }}">Teams</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Players</a></li>
+                </ul>
+                <ul class="navbar-nav login-more">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">More</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="subnav" class="subnav">
+        <div class="row">
+            <div class="col align-self-center">
+                <ul class="nav nav-tabs subnav-nav">
+                    <li class="nav-item subnav-hd" style="border-width: 1px;border-color: rgba(33,37,41,0.16);border-right-style: solid;"><a class="nav-link active" style="border-style: none;"><strong>Players</strong></a></li>
+                    <li class="nav-item"><a class="nav-link active text-primary" href="#" style="border-style: none;border-right-style: none;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-black-50" href="#" style="border-style: none;border-right-style: none;">Player Stats</a></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="player-info">
+        <div class="row player-info r1">
+            <div class="col">
+                <h1>All Players</h1>
+            </div>
+            <div class="col"></div>
+            <div class="col">
+                <form name = "form1" id = "my_form" action="{{ url_for('blog.index', page = 1, team_ = player_team, country_ = player_country, position_ = player_position, playerfull_ = player_full_name) }}" method = "post" >
+                    <div class="search-certain-player-div"><input type="text" class="search-certain-player" name = "playerfull_" placeholder="    Search Player(Enter to Go)" value = "{{ player_full_name }}"></div>             
+                </form>
+            </div>
+        </div>
+        <div class="row r2">
+            <div class="col">
+                <div class="x-dropdown dropdown">
+                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>{{ player_name_fc }}</span><i class="material-icons">keyboard_arrow_down</i></div>
+                    <div class="dropdown-menu" role="menu">
+                        <div class="row">
+                            <div class="col-1"><i class="fa fa-search dropdown-icon"></i></div>
+                            <div class="col"><input type="search" class="dropdown-item player_name_search"></div>
+                        </div>
+                        <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, team_ = player_team, country_ = player_country, position_ = player_position, playerfull_ = player_full_name) }}">All Players</a>
+
+                        {% for i in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'  %}
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = i, team_ = player_team, country_ = player_country, position_ = player_position, playerfull_ = player_full_name) }}">{% print(i) %}</a>
+                        {% endfor %}
+                        <div class="col highlight-blue dropdown-item" style="display: none;">
+                            <h6 class="text-center ">No Items Found.</h6>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="x-dropdown dropdown">
+                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>{{ player_team }}</span><i class="material-icons">keyboard_arrow_down</i></div>
+                    <div class="dropdown-menu" role="menu">
+                        <div class="row">
+                            <div class="col-1"><i class="fa fa-search dropdown-icon"></i></div>
+                            <div class="col"><input type="search" class="dropdown-item player_teamname_search"></div>
+                        </div>
+                        <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = player_name_fc, country_ = player_country, position_ = player_position, playerfull_ = player_full_name) }}">All Teams</a>
+                        {% for i in all_team_name  %}
+                            {% set team_per_name = i[0] %}
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = player_name_fc, team_ = team_per_name, country_ = player_country, position_ = player_position, playerfull_ = player_full_name) }}">{% print(team_per_name) %}</a>
+                        {% endfor %}
+                        <div class="col highlight-blue dropdown-item" style="display: none;">
+                            <h6 class="text-center ">No Items Found.</h6>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="x-dropdown dropdown">
+                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>{{ player_position }}</span><i class="material-icons">keyboard_arrow_down</i></div>
+                    <div class="dropdown-menu" role="menu">
+
+                        <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = player_name_fc, team_ = player_team, country_ = player_country, playerfull_ = player_full_name) }}">All Positions</a>
+                        <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = player_name_fc, team_ = player_team, country_ = player_country, position_ = 'F', playerfull_ = player_full_name) }}">Forward</a>
+                        <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = player_name_fc, team_ = player_team, country_ = player_country, position_ = 'G', playerfull_ = player_full_name) }}">Guard</a>
+                        <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = player_name_fc, team_ = player_team, country_ = player_country, position_ = 'C', playerfull_ = player_full_name) }}">Center</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row r3">
+            <div class="col">
+                <div class="x-dropdown dropdown">
+                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>{{ player_country }}</span><i class="material-icons">keyboard_arrow_down</i></div>
+                    <div class="dropdown-menu" role="menu">
+                        <div class="row">
+                            <div class="col-1"><i class="fa fa-search dropdown-icon"></i></div>
+                            <div class="col"><input type="search" class="dropdown-item country_name_search"></div>
+                        </div>
+
+                        <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = player_name_fc, team_ = player_team, position_ = player_position, playerfull_ = player_full_name) }}">All Countries</a>
+                        {% for i in all_country_name  %}
+                            {% set country_per_name = i[0] %}
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('blog.index', page = 1, player_ = player_name_fc, team_ = player_team, country_ = country_per_name, position_ = player_position, playerfull_ = player_full_name) }}">{% print(country_per_name) %}</a>
+                        {% endfor %}
+                        <div class="col highlight-blue dropdown-item" style="display: none;">
+                            <h6 class="text-center ">No Items Found.</h6>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="x-dropdown dropdown">
+                    <div class="text-left x-drop-btn" data-toggle="dropdown" aria-expanded="false"><span>All Schools</span><i class="material-icons">keyboard_arrow_down</i></div>
+                    <div class="dropdown-menu" role="menu">
+                        <div class="row">
+                            <div class="col-1"><i class="fa fa-search dropdown-icon"></i></div>
+                            <div class="col"><input type="search" class="dropdown-item"></div>
+                        </div>
+                        <a class="dropdown-item" role="presentation" href="#">All Schools</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="x-dropdown dropdown">
+                    <div class="text-left x-drop-btn"  aria-expanded="false">
+                        <span><a class="text-left x-drop-btn" role="presentation"  style="padding-left: 0px;" href="{{ url_for('blog.index', page = 1, player_ = 'All Players', team_ = 'All Teams', country_ = 'All Countries', position_ = 'All Positions', playerfull_ = None) }}">Clear All Conditions <i class="material-icons" style="padding-right: 0px;">clear</i></a>
+                        </span>
+                    </div>
+                    
+
+                    
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row r4 page-selector">
+            <div class="col">
+                <div class="d-flex float-right">
+                    <p class="page-selector total-rows">{{ total_player_num }} Rows&nbsp;</p>
+                    <p class="page-selector"><i class="fa fa-dot-circle-o"></i>&nbsp; Page</p>
+                    <div class="dropdown-toggle-div">
+                        <div class="dropdown d-flex d-xl-flex align-items-xl-end">
+                            <button class="btn dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button">
+                                {{ page }} 
+                            </button>
+                            <div class="dropdown-menu">
+                                <div class="row">
+                                    <div class="col-1"><i class="fa fa-search dropdown-icon"></i></div>
+                                    <div class="col"><input type="search" class="dropdown-item"></div>
+                                </div>
+                                {% for i in range(0, total_pages)  %}
+                                    <a class="dropdown-item" href="{{ url_for('blog.index', page = i + 1) }}">{% print(i+1) %}</a>
+
+                                {% endfor %}
+                                
+                                {# 
+                                <a class="dropdown-item" href="#">Second Item</a>
+                                <a class="dropdown-item" href="#">Third Item</a>
+                                #}
+                        </div>
+                    </div>
+                </div>
+                <p class="page-selector">of {{ total_pages }}</p>
+                <div class="page-selector-div pre">
+                    {% if prev_url %}
+                        <a class="action" href="{{ prev_url }}">
+                            <button class="btn" type="button">
+                                {# "window.location.href={{ prev_url }}"  #}
+                                <i class="fa fa-chevron-left"></i>
+                            </button>
+                        </a>
+                    {% else %}
+                        <button class="btn" type="button" onclick="alert('Already in the first page!')">
+                            <i class="fa fa-chevron-left"></i>
+                        </button>   
+                    {% endif %}
+
+                </div>
+
+                <div class="page-selector-div nxt">
+                    {% if next_url %}
+                    <a class="action" href="{{ next_url }}">
+                        <button class="btn" type="button">
+                            {# "window.location.href={{ next_url }}"  #}
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                    </a>
+                    {% else %}
+                        <button class="btn" type="button" onclick="alert('Already in the last page!')">
+                            <i class="fa fa-chevron-right"></i>
+                        </button>   
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="row detailed-info">
+            <div class="col">
+                <div class="table-responsive" id="tb">
+                    <table class="table">
+                        <thead class="player-info head">
+                            <tr>
+                                <th class="player-name" style="width: 300px;">PLAYER</th>
+                                <th class="player-team">TEAM</th>
+                                <th class="player-number">NUMBER</th>
+                                <th class="player-position">POSITION</th>
+                                <th class="player-height">HEIGHT</th>
+                                <th class="player-weight">WEIGHT</th>
+                                <th class="player-country">COUNTRY</th>
+                            </tr>
+                        </thead>
+                        <tbody class="player-info body">
+
+                            {% block content %}
+                            {% for post in posts %}
+                            <tr>
+                                <td class="player-name">
+                                    <div>
+                                        <div class="row">
+                                            <a href="#">
+                                                <div class="col" >
+                                                    <div class="row player-info-image">
+                                                        <div class="col-auto player-image-cropper"><img class="player-small-image" src="../static/common/image/player_head/{{ post['playerId'] }}.png"></div>
+                                                        <div class="col"><a class="action player-name-link" href="{{ url_for('blog.update', id=post['playerId']) }}">{{ post['firstNameEn'] }} <br>{{ post['lastNameEn'] }}<br><br></a></div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="player-team"><a class="player-team-link" href="#">{{ post['teamNameEn'] }}</a></td>
+                                <td class="player-number">{{ post['jerseyNo'] }}</td>
+                                <td class="player-position">{{ post['position'] }}</td>
+                                <td class="player-height">{{ post['height'] }}</td>
+                                <td class="player-weight">{{ post['weight'] }} kg</td>
+                                <td class="player-country">{{ post['countryEn'] }}<br></td>
+                            </tr>
+
+                            {% endfor %}
+                          {% endblock %}
+
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section><button class="btn btn-light" data-bss-hover-animate="pulse" id="myBtn" title="Go To Top" onclick="topFunction()" type="button"><i class="fa fa-chevron-up"></i></button>
+    <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation" style="text-align: center;">
+                <h3 class="text-uppercase text-center"><a class="text-right" href="#" style="font-family: Abel, sans-serif;">NBA ORGANIZATION</a></h3>
+                <p class="links">NBA Official</p>
+                <p class="links">NBA Careers</p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts" style="text-align: center;">
+                <div>
+                    <p><span class="new-line-span">NBA INITIALTIVES</span> NBA Cares</p>
+                </div>
+                <div></div>
+                <div>
+                    <p class="footer-center-info email text-left">NBA Voices</p>
+                </div>
+                <div>
+                    <p class="footer-center-info email text-left">NBA FIT</p>
+                </div>
+                <div>
+                    <p class="footer-center-info email text-left">Hoops for Troops<br></p>
+                </div>
+                <div>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 footer-contacts" style="text-align: center;">
+                <p><span class="new-line-span">SUBSCRIPTIONS</span> NBA TV</p>
+                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-youtube-play"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="static/Home-Players/js/jquery.min.js"></script>
+    <script src="static/Home-Players/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/Home-Players/js/bs-init.js"></script>
+    <script src="static/Home-Players/js/Back-To-Top.js"></script>
+    <script src="static/Home-Players/js/Navbar---Apple.js"></script>
+    <script src="static/Home-Players/js/yangshi.js"></script>
+    <script src="static/Home-Players/js/dropdownSearch.js"></script>
+    <script>
+        if({{ total_player_num }} == 0){
+            alert("No Player Satisfy current condition!");
+        }
+        $(".search-certain-player").bind("input propertychange", function(){
+
+        });
+
+
+
+    </script>
+</body>
+
+</html>
